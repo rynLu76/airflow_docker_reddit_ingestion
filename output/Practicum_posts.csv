@@ -1,0 +1,229 @@
+id,post_query,title,subreddit,author,date,upvotes,content
+108zqmx,weclouddata,Data Engineering bootcamps - DataStack Academy vs WeCloudData,dataengineering,tulipz123,2023-01-11 08:29:43,18,"I've done tons of researches regarding DE bootcamps lately and would like to share to those who are also thinking about joining one soon.  Please share your thoughts and let me know which one you would choose if you were me. 
+
+&#x200B;
+
+https://preview.redd.it/e4rf5mpxjdba1.png?width=583&format=png&auto=webp&v=enabled&s=1383e4b33cf371a5da3b38d89feb43cac6d80478
+
+**Some extra notes:**
+
+* The classes are hosted remotely for both.
+* WeCloudData is Canada-based, but they have students from the US (and I am from the US)
+* The tools/technologies they teach in the classroom are the same and up-to-date, only difference is that DataStack Academy entirely focuses on GCP whereas WeCloudData also teaches AWS.
+* I can't find much alumni review on DataStack Academy, but they have partnered up with Epicodus which I heard it's a good school.  The job placement rate is from Epicodus website."
+10v7ult,weclouddata,"Recently terminated Data Engineer with 5 years of experience, looking for critiques before sending out loads of applications",resumes,lengthy_preamble,2023-02-06 14:24:42,11,"I was recently let go at the company I worked for. I suppose the question of why I was only there for four months might come up, so I'll post my take of it below. The resume-relevant part is that it's difficult to put any kind of business results/impact because while I wrote a lot of code for them, none of it saw production while I was there.  
+
+
+Some other thoughts:
+
+* the blurb at the top under ""Data Engineer"" seems too long
+* get rid of ""Signature Competencies"" and put ""Technical Proficiencies"" in its place
+* the ""Associate Data Engineer"" section from Manulife seems unwieldy, even though it has the most relevant data-engineer-type stuff in it
+
+Why I was there for only four months:  
+
+
+ I felt that their demands were unrealistic; they're very new to the world of data, and they wanted a fully automated salesforce ETL pipeline in a month, scripted entirely with python and MySQL. I was the only data engineer in the org, and I had no team and no one to consult with or bounce ideas off of. When I did my job interview with the supervisor, I told him that I didn't have any practice with python programming in my last job, so he should have known that I wouldn't be able to whip out code like a pro. The only other python guy there was too busy and my manager told me not to bother him. I was only with them for four months.  
+
+
+On my last 1:1 my manager gave me a 4/5 and my resume shows that I've received promotions at other jobs in the past. 
+
+&#x200B;
+
+https://preview.redd.it/girukddvtkga1.png?width=746&format=png&auto=webp&v=enabled&s=1845b09819c5b7edb7aa33ea9c7fa0a5619f3c56
+
+&#x200B;
+
+https://preview.redd.it/fa7nmsywtkga1.png?width=740&format=png&auto=webp&v=enabled&s=1deccd4f952644b686bcf1f319d74eb1d0ba6cd4"
+zn1vhc,weclouddata,Best DE Bootcamp based on my experience and objectives?,dataengineering,StrikeSaber47,2022-12-16 00:57:43,3,"Hey, I know I am one of those people that had to create another DE bootcamp thread but I would love to get some advice on which DE bootcamp that would suit me the best for my next steps in my career.
+
+I am currently working full time as a Business Analysis Manager at a Fortune 500 tech company in the Bay Area for the last five years. In this role, I have been acting as a Swiss Army Knife of sorts being a half-PM and a half-DA specializing in developing data quality, integration, and automation solutions that I then pass onto a BI or a DS team to actually develop in production for us. Most of the data is related to sales and is often anchored by our CRM (SFDC) and with no-code intermediate solutions (such as LeanData or SFDC Flows). From time to time, I do prototype out custom scripts that could be used to fulfill some functionality (like connecting to Snowflake and SAP), but ultimately the ETL solutions I draft are pushed to actual DE's and Dev's to fully build out. I also maintain reports and dashboards on our data health and do the typical update meetings to our stakeholders.
+
+However in the past half a year, I have been wanting to go more towards the path of being a pure BI Analyst, AE, or DE. I have SQL and Tableau knowledge (as I still have to do analysis and prototyping) and some Python knowledge, but not enough to be a reliable scripter. Furthermore, I have no hands-on knowledge of deeper things like Data Lakehouses or Data Orchestration as my job does not require me to use those directly (again we got DE's and Dev's for that). Therefore, I am considering a bootcamp to help fill those gaps and hopefully get me caught up on the technical stack of my skills and sharp enough to pass technical interviews for future BI roles.
+
+Currently, I am looking at three in particular, but each of them has a different approach to how they teach:
+
+1. Jigsaw Labs
+2. Data Engineering Camp
+3. WeCloudData
+
+Jigsaw Labs: 
+
+A six month course that teaches 'Data Engineering' from a SWE perspective of knowing how to write efficient and well designed Python and SQL code to properly do large-scale ETL processes and only in the second half of the course to focus on Cloud Computing (AWS) and Data Pipelines using Airflow, Fivetran and DBT. According to some of my friends in the DE and Data Infra space that this course is the most useful as the key to being a solid BI/AE/DE is knowing how to write effective Python code and SQL queries that follows a good data design and everything from there should come naturally.
+
+This course is also the most expensive of the three and also includes an externship that you can work with an actual company or non-profit to apply the taught skills to build a real-world applied project and gives an additional nine months of post-course support, especially in sharpening your Python/SQL LC practice for those interviews.
+
+However, the course does not cover anything with Data Lakehouses or Data Streaming, I feel like the most you will be out of the course is a solid BI Analyst, but you will still need to cover the gaps of the rest on your own, which makes me question how much worth I will be for my career switch in the future to like an AE.
+
+Data Engineering Camp:
+
+They have been touted pretty well in this subreddit and the course founder is pretty active on this subreddit as well. His course is the shortest of the three and he seems to cover all of the key bits in the DE toolbox and expectations including Lakehouses (Spark, Databricks) and Streaming (Kafka). However, I am not sure all of this coverage would make me come out of it effective enough to be taken seriously for a career change without further supplementation. It sounds it is great if I wanted to be like a TPM that would work more with an AE/DE team though.
+
+Also from a instruction POV, I will have to take classes between 2AM to 5AM since I am in the West Coast US and they are being taught from Australia.
+
+WeCloudData:
+
+This one seems to be in the middle of Jigsaw Labs and DEC. It is six months and seems to cover all of the basis that Jigsaw and DEC is doing, but not in the detail on the Python/SQL front like Jigsaw. Therefore, I feel like this one will get me the good grasp of what I need to know as an AE/DE, but I am leery if it still lacks the best approach to give me the core foundations needed for my Python/SQL chops. They also provide six months of mentorship and career prep after the course but not externship if you do the part-time program.
+
+Therefore, I am torn if I trade off the philosophy of Jigsaw Labs to teach you the true fundamentals but at the expense of learning the higher-level tools/processes that is also needed, or do a more comprehensive curriculum like DEC or WeCloudData coming from my own experience and aspirations.
+
+Any suggestions is appreciated as I want to do the best bootcamp that would yield me the best foot forward for my next career move. I know a good number of you would tell me to don't bother with any of them and just self-learn (cheaper), but trust me, I learn the best by being instructed, especially if I want to be taught the foundations correctly.
+
+Thx!"
+114x6lq,weclouddata,"Updated Data Engineer resume, please critique",resumes,lengthy_preamble,2023-02-17 20:48:09,2,"Thanks to your feedback, I updated my previous resume and de-cluttered. I have now reduced it to one page and put as much quantifiable impact as I felt I could. Please let me know if there's anything else I can do to improve the yourehired-ness of this thing.
+
+I wanted to have my projects integrated with the rest of the resume, but that would significantly boost the word count. I suppose I'll have to settle for a link at the top(?). Maybe I could take out the Education stuff instead?
+
+&#x200B;
+
+https://preview.redd.it/l8nwdvad9tia1.png?width=716&format=png&auto=webp&v=enabled&s=74f525e3efb0c1b3090d8dd1d01347ec277de9cb"
+xiodrj,weclouddata,Career Shifter - Bootcamp Opinions,dataengineering,klailatimad,2022-09-19 20:53:40,6,"Hi
+
+I've been looking into different data engineering bootcamps that are suited for the Eastern Time Zone and that will begin in the next few weeks / few months as I am currently living in Ontario, Canada. I am currently unemployed and can afford to pay most of these tuition fees. For context, I used to work in operations and had technical roles (non software) in Oil and Gas.
+
+My goal is to land a job in data engineering. 
+
+So the content of the bootcamp is important, and having access to either internships or access to recruiters (through the bootcamp itself or to be provided by the instructors / network of people giving the course) plays a major role in me selecting the right bootcamp to increase my chances of landing a job in Ontario, Canada.
+
+I have found the below bootcamps and would appreciate any and all feedback from someone that has taken any of these bootcamps, know someone that has gone through theses bootcamps and landed a job afterwards, or any other bootcamp recommendations.
+
+1- Professional Certificate in Data Engineering by MIT / xPro  [Link](https://executive-ed.xpro.mit.edu/professional-certificate-data-engineering?utm_source=Google&utm_network=g&utm_medium=c&utm_term=data%20engineering%20course&utm_location=9000833&utm_campaign_id=17059210994&utm_adset_id=141707943291&utm_ad_id=619132477394&gclid=CjwKCAjwsfuYBhAZEiwA5a6CDJ7xWFxdfKYxGdcauHSLIUrATMWTs8trYc3Vs0U7SDLJAaPmBEqftRoCCRgQAvD_BwE)
+
+2- Data Engineering Bootcamp by WeCloudData (part time vs full time options) [Link](https://weclouddata.com/courses/online/data-engineering-diploma/)
+
+3- Become a Data Engineer - Nanodegree Program by Udacity [Link](https://www.udacity.com/course/data-engineer-nanodegree--nd027?utm_campaign=18155936788_c_individuals&utm_keyword=data%20engineering%20bootcamp_b&utm_medium=ads_n&utm_source=gsem_generic&utm_term=140885122935)
+
+4- Data Engineering Bootcamp by DataStack Academy   [Link](https://www.datastack.academy/)
+
+With the varying reviews and recommendations on this subreddit and online, I would deeply appreciate any ideas towards these four bootcamp options. I have also searched this sub and gone through the wiki to get a better idea of what's already recommended.
+
+Thanks"
+w6x605,weclouddata,Looking for help picking a Data Sci bootcamp,learndatascience,Snxwe,2022-07-24 14:42:01,8,"Hey folks, thanks for your time. I'm looking to join a data science bootcamp this fall, the main reason being wanting to change career as fast as possible and this seemed to be the fastest way in to Data Science. I've interviewed, tested and got offers from several camps and I'm having a really hard time picking which one is best, so maybe you folks can help?
+
+\- [weclouddata](https://weclouddata.com/courses/online/data-science-bootcamp/) \- 11k USD - 14 weeks - offers real world/internship-style project experience
+
+\- [Lighthouse](https://www.lighthouselabs.ca/en/data-science-bootcamp) \- 10.5k USD - 12 weeks - 2 weeks shorter but doesn't seem better than weclouddata for essentially the same money? no real world experience
+
+\- [MIT Applied Data Science Program](https://d9jmtjs5r4cgq.cloudfront.net/brochures/mit-data-science-program.pdf) \- 3400 USD ?! - 12 weeks - I spoke to an admissions guy on the phone about why it was so cheap and what compared this course to other bootcamps out there, I asked about the employment stats of graduates, but all I get is sales pitch talk and it's really hard to decipher from him if this is a great deal if the sole goal is to change career. The stats he gave were very vague. Money is tight for me so this course is very appealing, but it's worth nothing if it doesn't actually help me land a job down the road.
+
+I also got an offer from Practicum, but their only offering is a part-time 9 months long bootcamp, which is too long for me. I'm also interviewing for [Le Wagon](https://www.lewagon.com/data-science-course/full-time#curriculum) at the moment, which is 9 weeks long but they don't seem to particularly stand out and perhaps aren't as complete as others? I've looked at other bootcamps from bigger providers but they are out of my price range, 11k USD is *probably* my max budget.
+
+**Any guesses as to why the MIT is so cheap and wether it's a good deal or not? Any other bootcamps that I should look in that are in budget? Thanks for reading and for your time!**"
+u76io5,weclouddata,Tech Transition: Please comment/critic my transition plan.,ITCareerQuestions,zubzup,2022-04-19 14:30:46,1,"Hello guys  
+
+
+I am working in banking at the moment looking to transition into tech. Here is my plan:  
+
+
+1) Do a bunch of online bootcamps and build my basics  
+2) Initial focus will be on Data analytics and learning standard programming languages  
+3) Then maybe I am thinking to enroll into a certification program (Weclouddata, Brainstatio, MIT etc.) that gives me credibility. Maybe attain my AWS certification and dive into DE?  
+4) Start applying for jobs.  
+
+
+My Plan: Data Analytics -> DE ->?  
+
+
+Is this plan practical? Please critic.   
+
+
+Last question: Any credible bootcamps/certifications recommendations that would help in this journey?  
+
+
+Thanks a lot!"
+w6x4uo,weclouddata,Looking for help picking a Data Sci bootcamp,learnprogramming,Snxwe,2022-07-24 14:40:33,2,"Hey folks, thanks for your time, I found a r/learndatascience sub but it seemed very quiet so I hope you don't mind me posting here. I'm looking to join a data science bootcamp this fall, the main reason being wanting to change career as fast as possible and this seemed to be the fastest way in to Data Science. I've interviewed, tested and got offers from several camps and I'm having a really hard time picking which one is best, so maybe you folks can help?
+
+\- [weclouddata](https://weclouddata.com/courses/online/data-science-bootcamp/) \- 11k USD - 14 weeks - offers real world/internship-style project experience
+
+\- [Lighthouse](https://www.lighthouselabs.ca/en/data-science-bootcamp) \- 10.5k USD - 12 weeks - 2 weeks shorter but doesn't seem better than weclouddata for essentially the same money? no real world experience
+
+\- [MIT Applied Data Science Program](https://d9jmtjs5r4cgq.cloudfront.net/brochures/mit-data-science-program.pdf) \- 3400 USD ?! - 12 weeks - I spoke to an admissions guy on the phone about why it was so cheap and what compared this course to other bootcamps out there, I asked about the employment stats of graduates, but all I get is sales pitch talk and it's really hard to decipher from him if this is a great deal if the sole goal is to change career. The stats he gave were very vague. Money is tight for me so this course is very appealing, but it's worth nothing if it doesn't actually help me land a job down the road.
+
+I also got an offer from Practicum, but their only offering is a part-time 9 months long bootcamp,  which is too long for me. I'm also interviewing for [Le Wagon](https://www.lewagon.com/data-science-course/full-time#curriculum) at the moment, which is 9 weeks long but they don't seem to particularly stand out and perhaps aren't as complete as others? I've looked at other bootcamps from bigger providers but they are out of my price range, 11k USD is *probably* my max budget.
+
+**Any guesses as to why the MIT is so cheap and wether it's a good deal or not? Any other bootcamps that I should look in that are in budget? Thanks for reading and for your time!**"
+u76hcp,weclouddata,Transition into Tech,techjobs,zubzup,2022-04-19 14:29:14,0,"Hello guys  
+
+
+I am working in banking at the moment looking to transition into tech. Here is my plan:  
+
+
+1) Do a bunch of online bootcamps and build my basics  
+2) Initial focus will be on Data analytics and learning standard programming languages  
+3) Then maybe I am thinking to enroll into a certification program (Weclouddata, Brainstatio, MIT etc.) that gives me credibility. Maybe attain my AWS certification and dive into DE?  
+4) Start applying for jobs.  
+
+
+Is this plan practical? Please critic.   
+
+
+Last question: Any credibal bootcamps/certifications recommendations that would help in this journey?  
+
+
+Thanks a lot!"
+wo8xhf,weclouddata,What is the data science interview process like in Canada?,cscareerquestionsCAD,Professional_Crazy49,2022-08-14 15:24:39,2,"I understand that the interview process would differ a lot depending on the company but what's the standard process like? 
+
+Apart from the theoretical data science interview questions (eg: ""What is A/B testing?""), what else should one expect in an interview? A python and SQL test? Leetcode questions? Take-home data science assignments? 
+
+If you have any resources that helped you during your data science interview prep, do mention them in the comments! :)"
+su93up,weclouddata,Opinion on DE Bootcamp (e.g. WeCloudData),dataengineering,Sure-Fox9929,2022-02-16 23:03:07,6,"Does anyone have experience with or thoughts on a data engineering bootcamp, such as WeCloudData (link below)?
+
+[https://weclouddata.com/courses/data-engineering-diploma/](https://weclouddata.com/courses/data-engineering-diploma/)
+
+I'm considering doing this since I feel a bit lost. I'm a Data Analyst, looking to become a DE, but I feel overwhelmed by the myriad of DE tools and skills and how to bring them together. I feel that bootcamp like this offers not just that knowledge, but also a community, which beats learning alone in isolation.
+
+I appreciate any and all perspectives!"
+rm8uos,weclouddata,Bootcamp…,dataengineering,nudgekennels,2021-12-22 16:30:23,8,"Does anyone have experience with either WeCloudData or Pipeline Academy? They’re bootcamps specifically for data engineering. I’m hoping to do one of the two. I know a lot of ppl recommend learning on your own via projects—I’m sure I can do that, but I feel like I’ll have a lot of gaps in my knowledge and won’t have a good grasp of the fundamentals. 
+
+A little about myself: I’m coming from a SQL analyst (ish) background in the finance and software consulting sector."
+vh20md,weclouddata,Need advice weather data engineering program is a good idea for diversifying technical skills,dataengineering,GypsyElder,2022-06-21 02:02:44,2,"Hi everyone!
+
+I’m considering a data engineering program that’s about six months in length part-time. I currently work as a statistical programmer/analyst at a pharmaceutical company. 
+
+I just accepted a new job as a manager of programming, but this is during a time where I am very much interested in diversifying my skill set, so that in the future, I will not be limited to working in the same industries.
+
+I work in regulated environments (sensitive data) that do utilize different technologies and languages, but their use is generally limited compared to non or less regulated spaces. 
+
+I know that data engineering is an evolving field. So my question is:
+
+If I decided to complete the data engineering program now, do you think the skills learned during the process would be obsolete by the time I decide to switch over to engineering?
+
+I originally planned to completely switch careers last year, but I was presented with this opportunity within the same industry. So, I am willing to work this position for a while. But in the meantime, I want to advance my technical skills. 
+
+I’m not short on cash; the program is $6,120. 
+
+Do you think it is worth it? Or should I just forget training until I decide to make the move?"
+qawanj,weclouddata,"Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada",askTO,Focus789,2021-10-18 21:24:14,5,"Hello everyone, hope you well. I am interested in an online course that offers a mix of SQL + Python + Data Engineering + Statistics. I have read about lot of bootcamps...GA, Springboard, Weclouddata, data analytics bootcamp by UOT, Brainstation... but could not find what I need. Just checking with you if I missed something. My goal is to become a data analyst/ entry level data scientist. Just to add, I am not look at ML or AI just yet.
+
+Thank you."
+qaw2to,weclouddata,"Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada",learnprogramming,Focus789,2021-10-18 21:13:12,4,"Hello everyone, hope you well. I am interested in an online course that offers a mix of SQL + Python + Data Engineering + Statistics. I have read about lot of bootcamps...GA, Springboard, Weclouddata, data analytics bootcamp by UOT, Brainstation... but could not find what I need. Just checking with you if I missed something. My goal is to become a data analyst/ entry level data scientist. 
+
+Thank you."
+qawjhl,weclouddata,"Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada",learnpython,Focus789,2021-10-18 21:35:56,6,"Hello everyone, hope you well. I am interested in an online course that offers a mix of SQL + Python + Data Engineering + Statistics. I have read about lot of bootcamps...GA, Springboard, Weclouddata, data analytics bootcamp by UOT, Brainstation... but could not find what I need. Just checking with you if I missed something. My goal is to become a data analyst/ entry level data scientist. To add, I am not looking at ML and AI just yet.
+
+Thank you."
+qawkkc,weclouddata,"Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada",careeradvice,Focus789,2021-10-18 21:37:28,1,"Hello everyone, hope you well. I am interested in an online course that offers a mix of SQL + Python + Data Engineering + Statistics. I have read about lot of bootcamps...GA, Springboard, Weclouddata, data analytics bootcamp by UOT, Brainstation... but could not find what I need. Just checking with you if I missed something. My goal is to become a data analyst/ entry level data scientist.
+
+Thank you."
+qawctw,weclouddata,"Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada",codingbootcamp,Focus789,2021-10-18 21:27:06,2,"Hello everyone, hope you well. I am interested in an online course that offers a mix of SQL + Python + Data Engineering + Statistics. I have read about lot of bootcamps...GA, Springboard, Weclouddata, data analytics bootcamp by UOT, Brainstation... but could not find what I need. Just checking with you if I missed something. My goal is to become a data analyst/ entry level data scientist. To add, I am not looking at ML and AI just yet.
+
+Thank you."
+qhetd1,weclouddata,What's a good bootcamp to start my data engineering career?,dataengineering,Dependent-Report-434,2021-10-28 04:23:09,6,"After graduating with an ME degree and can't even find work in California, I'm thinking about taking the high-potential data engineering route. I know little bit of python but that's it. I do want to start with a bootcamp! What is the best beginner friendly bootcamp I can apply to? Do you have any other recommendation for me?"
+qawla7,weclouddata,"Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada",PythonJobs,Focus789,2021-10-18 21:38:29,1,"Hello everyone, hope you well. I am interested in an online course that offers a mix of SQL + Python + Data Engineering + Statistics. I have read about lot of bootcamps...GA, Springboard, Weclouddata, data analytics bootcamp by UOT, Brainstation... but could not find what I need. Just checking with you if I missed something. My goal is to become a data analyst/ entry level data scientist. To add, I am not looking at ML and AI just yet."
+c2a3v1,weclouddata,Views on data science bootcamp?,dataanalysis,abby_ch238,2019-06-19 00:25:02,3,"I'm at an info session on ""how to get a job as a data analyst"" by WeCloudData and it seems they offer a data science bootcamp.
+I'm getting a little frustrated with my luck at job responses right now so should I consider a bootcamp?
+
+For reference here's my background: BSc in Math, minor in CS, really shitty gpa. Worked as IT support for a year and then started a certificate in Data science, only completed 2/4 courses. I'm applying for Data Analyst roles rn"
+6egk8n,weclouddata,Big Data and education,BigDataJobs,lengthy_preamble,2017-05-31 17:37:57,7,"Hello all,
+
+I've been looking into the possibility of getting into a career in Big Data but am not sure how to proceed. I was outsourced out of my previous job - NAS data storage - and was having no luck finding a job in that field. I heard about Big Data and was intrigued but I'm starting to wonder if it's doable without a university degree.
+
+I took a Big Data Developer course from Simplilearn and I think I kind of got burned. They did an ok job of teaching the basics and the overall concepts but I still don't know what I feel I need to know about processing and sorting data, whether through Hadoop or Spark. My only programming background is being halfway through a book on Python and I feel like if I'm going to get anywhere with Spark/Hadoop I would need something that's very ""this command does this"", hands-on kind of training.
+
+There's a local company called ""We Cloud Data"" that offers courses:
+
+http://weclouddata.com/courses/
+
+They have an info session on Saturday that I intend to check out, but I question whether a proficiency in Big Data can be taught in 12 courses.
+
+I'm more than willing to do basic entry level work in the field while I gather more training. I'm just wondering if this is really realistic or not. Any thoughts?"

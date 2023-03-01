@@ -1,0 +1,491 @@
+[2023-02-22 09:39:36,439] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-22T09:39:31.173519+00:00 [queued]>
+[2023-02-22 09:39:36,459] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-22T09:39:31.173519+00:00 [queued]>
+[2023-02-22 09:39:36,461] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-22 09:39:36,462] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2023-02-22 09:39:36,464] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-22 09:39:36,485] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): scraping> on 2023-02-22 09:39:31.173519+00:00
+[2023-02-22 09:39:36,497] {standard_task_runner.py:52} INFO - Started process 28702 to run task
+[2023-02-22 09:39:36,510] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'scraping', 'manual__2023-02-22T09:39:31.173519+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmpfuajhels', '--error-file', '/tmp/tmp3eovguwk']
+[2023-02-22 09:39:36,513] {standard_task_runner.py:77} INFO - Job 42: Subtask scraping
+[2023-02-22 09:39:36,936] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.scraping manual__2023-02-22T09:39:31.173519+00:00 [running]> on host 541881d0ad34
+[2023-02-22 09:39:37,020] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=scraping
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-22T09:39:31.173519+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-22T09:39:31.173519+00:00
+[2023-02-22 09:39:37,124] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-22 09:39:37,406] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-22 09:39:37,701] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-22 09:39:55,634] {logging_mixin.py:109} INFO - 1  --  How to speed up learning machine learning (Data Science Retreat founder)  --  bigdata
+[2023-02-22 09:39:58,275] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:40:01,608] {logging_mixin.py:109} INFO - 2  --  Data science retreat (track data engineer) looking for people who want to spend 3 months in Berlin with kickass mentors and become proficient with data streams  --  promos
+[2023-02-22 09:40:02,487] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:40:11,729] {logging_mixin.py:109} INFO - 3  --  But seriously: how is Data Science Retreat? — Data Science Brigade  --  datascience
+[2023-02-22 09:40:12,247] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:40:21,883] {logging_mixin.py:109} INFO - 4  --  Data science retreat • R: the good parts  --  math
+[2023-02-22 09:40:22,326] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:40:32,544] {logging_mixin.py:109} INFO - 5  --  I taught a one day course on NumPy and linear algebra - here are my materials  --  datascience
+[2023-02-22 09:40:33,138] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:40:43,789] {logging_mixin.py:109} INFO - 6  --  science advances its position, religion retreats  --  DebateReligion
+[2023-02-22 09:40:44,555] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:40:55,368] {logging_mixin.py:109} INFO - 7  --  This almost feels like a test (for data science intern application).  --  ProgrammerHumor
+[2023-02-22 09:40:56,321] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:41:06,510] {logging_mixin.py:109} INFO - 8  --  I'm applying for a data science role. Unironically, how do I answer this?  --  recruitinghell
+[2023-02-22 09:41:07,273] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:41:16,560] {logging_mixin.py:109} INFO - 9  --  Partial Scholarship (4000 eur) for developers who want to learn ML and use it for social impact  --  softwaredevelopment
+[2023-02-22 09:41:17,058] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:41:26,938] {logging_mixin.py:109} INFO - 10  --  Conflicting data is still coming from the right bank of Kherson. While eyes on the ground confirm the retreat of Russian forces from multiple towns, there are also reports of Russian presence in other areas. I don't think it's safe to say that they are gone completely. Not yet  --  UkrainianConflict
+[2023-02-22 09:41:27,732] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:41:37,081] {logging_mixin.py:109} INFO - 11  --  Are you planning to take a psychedelic at a ceremony/retreat or a rave, music festival, or other dance music event with the intention of healing or processing childhood trauma? Contribute to psychedelic science and get paid $30! More info on the website.  --  InternalFamilySystems
+[2023-02-22 09:41:37,641] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:41:47,670] {logging_mixin.py:109} INFO - 12  --  Why is Python so used in data science?  --  datascience
+[2023-02-22 09:41:48,351] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:41:57,812] {logging_mixin.py:109} INFO - 13  --  Are you planning to take a psychedelic in a group-based setting (like a ceremony/retreat or a rave, music festival, or other dance music event) to heal childhood trauma? Get paid $30 to participate in psychedelic science! More info on the website.  --  CPTSD
+[2023-02-22 09:41:58,374] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:42:07,969] {logging_mixin.py:109} INFO - 14  --  Are you planning to take a psychedelic in a group-based setting (like a ceremony/retreat or a rave, music festival, or other dance music event) to heal childhood trauma? Get paid $30 to participate in psychedelic science! More info on the website.  --  PsychedelicTherapy
+[2023-02-22 09:42:08,394] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:42:19,521] {logging_mixin.py:109} INFO - 15  --  ChatGPT got 50% more marks on data science assignment than me. What’s next?  --  datascience
+[2023-02-22 09:42:20,171] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:42:30,116] {logging_mixin.py:109} INFO - 16  --  For those who interview folks for prospective data science roles. What is the most common reason people don’t move forward in the interview process?  --  datascience
+[2023-02-22 09:42:30,772] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:42:40,194] {logging_mixin.py:109} INFO - 17  --  Partial Scholarship (4000 eur) for developers who want to learn ML and use it for social impact  --  opensource
+[2023-02-22 09:42:40,630] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:42:50,714] {logging_mixin.py:109} INFO - 18  --  I have a Masters in Data Science but I feel behind on some basics. Should I go back to school to pick up the math and stats I think I’m missing?  --  datascience
+[2023-02-22 09:42:51,345] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:43:00,812] {logging_mixin.py:109} INFO - 19  --  Are you planning to take a psychedelic in a group-based setting (like a ceremony/retreat or a rave, music festival, or other dance music event) to heal childhood trauma? Get paid $30 to participate in psychedelic science! More info on the website.  --  shrooms
+[2023-02-22 09:43:01,344] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:43:10,951] {logging_mixin.py:109} INFO - 20  --  Are you planning to attend a ceremony or retreat with the intention of healing or processing childhood trauma? Contribute to psychedelic science and earn $30. More info on the website.  --  Ayahuasca
+[2023-02-22 09:43:11,429] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:43:21,100] {logging_mixin.py:109} INFO - 21  --  Are you planning to take a psychedelic in a group-based setting (like a ceremony/retreat or a rave, music festival, or other dance music event) to heal childhood trauma? Get paid $30 to participate in psychedelic science! More info on the website.  --  Psychonaut
+[2023-02-22 09:43:21,521] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:43:31,980] {logging_mixin.py:109} INFO - 22  --  Madhuri’s sons talking about Academics, Data Science etc… Recently I had almost forgotten that all star-kids are not dumb 🗿  --  BollyBlindsNGossip
+[2023-02-22 09:43:32,780] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:43:42,312] {logging_mixin.py:109} INFO - 23  --  [OC] BU’s Center for Data Science  --  ArchitecturePorn
+[2023-02-22 09:43:42,918] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:43:52,421] {logging_mixin.py:109} INFO - 24  --  Stocks Retreat as Traders Weigh Earnings, PCE Data  --  FinanceNews
+[2023-02-22 09:43:52,966] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:44:02,779] {logging_mixin.py:109} INFO - 25  --  Learning the basics of Data Science in 1 year. What do you think?  --  BusinessIntelligence
+[2023-02-22 09:44:03,951] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:44:13,233] {logging_mixin.py:109} INFO - 26  --  Is it normal in the data Science field to not have that many code checks?  --  datascience
+[2023-02-22 09:44:13,958] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:44:23,692] {logging_mixin.py:109} INFO - 27  --  Just Released Latest Science Evidence Based Data Forecast for New Brunswick. Feb 12 to Feb 18 2023.  --  newbrunswickcanada
+[2023-02-22 09:44:24,327] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:44:33,892] {logging_mixin.py:109} INFO - 28  --  Probability and Statistics for Data Science - amazing free book (not the buzz book you imagine)  --  datascience
+[2023-02-22 09:44:34,537] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:44:44,592] {logging_mixin.py:109} INFO - 29  --  Can I pursue a career in Data Science at 34?  --  datascience
+[2023-02-22 09:44:45,565] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:44:55,334] {logging_mixin.py:109} INFO - 30  --  Data Science managers, what core skills (and to what depth of knowledge) are you looking for in a Data Scientist hire in 2023?  --  datascience
+[2023-02-22 09:44:56,272] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:45:05,657] {logging_mixin.py:109} INFO - 31  --  Delete TikTok or risk your data being exposed to 'hostile' threats, warns foreign affairs committee chief | Science & Tech News  --  europe
+[2023-02-22 09:45:06,315] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:45:15,786] {logging_mixin.py:109} INFO - 32  --  Chinese glaciers melting at 'shocking' pace, scientists say | Across the mountains, glacier retreat was 50% faster in 1990-2010 than it was from 1956 to 1990, data from the China Academy of Sciences shows.  --  worldnews
+[2023-02-22 09:45:16,419] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:45:24,151] {logging_mixin.py:109} INFO - 33  --  Snowflake Data Science Internship  --  csMajors
+[2023-02-22 09:45:24,886] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:45:28,950] {logging_mixin.py:109} INFO - 34  --  Applied for OMSA program, but this thread is making me nervous for a data science career. Thoughts?  --  datascience
+[2023-02-22 09:45:30,768] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:45:36,597] {logging_mixin.py:109} INFO - 35  --  A millennial founder who sold her company to JP Morgan for $175 million allegedly paid a [DATA SCIENCE] college professor $18K to fabricate 4 million accounts. Their email exchange is a doozy  --  datascience
+[2023-02-22 09:45:37,991] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:45:41,375] {logging_mixin.py:109} INFO - 36  --  I wrote up a guide showing how to do Data Science with ChatGPT.  --  datascience
+[2023-02-22 09:45:43,991] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:45:50,675] {logging_mixin.py:109} INFO - 37  --  The Cochrane Review on Masks is Damning. Masks have no good data to support them. It is a religion, not a science  --  Conservative
+[2023-02-22 09:45:53,786] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:45:56,537] {logging_mixin.py:109} INFO - 38  --  Do you know anyone who went from being an actuary to an MS in data science or statistics? How did it go for them?  --  actuary
+[2023-02-22 09:45:59,304] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:46:03,622] {logging_mixin.py:109} INFO - 39  --  Gold retreats as traders lock in profits before U.S. data  --  phnewsfeed
+[2023-02-22 09:46:04,870] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:46:08,729] {logging_mixin.py:109} INFO - 40  --  [Business] - Gold retreats as traders lock in profit before US data | Times of India  --  AutoNewspaper
+[2023-02-22 09:46:12,763] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:46:19,600] {logging_mixin.py:109} INFO - 41  --  [Business] - Gold retreats as traders lock in profit before US data  --  TIMESINDIAauto
+[2023-02-22 09:46:21,403] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:46:25,782] {logging_mixin.py:109} INFO - 42  --  Learning the basics of Data Science in 1 year. What do you think? More background info and motivation for this in the comments.  --  becomingnerd
+[2023-02-22 09:46:30,171] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:46:37,505] {logging_mixin.py:109} INFO - 43  --  Pros and cons of direct hire vs contract to hire data science positions  --  datascience
+[2023-02-22 09:46:40,252] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:46:43,948] {logging_mixin.py:109} INFO - 44  --  Don't like LinkedIn. Are there any other data science forums I should know about outside of reddit?  --  datascience
+[2023-02-22 09:46:47,936] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:46:54,210] {logging_mixin.py:109} INFO - 45  --  Que podria subir a un portfolio? (Backend, Data Science)  --  devsarg
+[2023-02-22 09:46:58,634] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:47:04,493] {logging_mixin.py:109} INFO - 46  --  @Reuters: Indian shares retreat; IT results, inflation data eyed https://t.co/zHbXGj8Bwy  --  newsbotbot
+[2023-02-22 09:47:06,367] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:47:16,483] {logging_mixin.py:109} INFO - 47  --  Have you ever had the opportunity to Travel with a Data Science Role?  --  datascience
+[2023-02-22 09:47:17,903] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:47:23,381] {logging_mixin.py:109} INFO - 48  --  @Reuters: Yen jumps, dollar in retreat ahead of U.S. inflation data https://t.co/TmS0HKJ62t https://t.co/Qy9O5CZGAi  --  newsbotbot
+[2023-02-22 09:47:29,013] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:47:36,017] {logging_mixin.py:109} INFO - 49  --  Creating a Course for Aspiring Data Scientists (Learn Data Science Through Sports)  --  sportsanalytics
+[2023-02-22 09:47:39,333] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:47:46,872] {logging_mixin.py:109} INFO - 50  --  Mini M2 24/512 vs M2 Pro 16/512 for data science  --  macmini
+[2023-02-22 09:47:53,245] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:47:59,613] {logging_mixin.py:109} INFO - 51  --  Engineer looking for a role in Data Science. Good academic record, including an MSc and Uni-level awards and some work experience as a Data Scientist. 300+ applications with no success, even rejected from Juinor Data Analyst roles. Please let me know how I can improve my CV.  --  resumes
+[2023-02-22 09:48:01,993] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:48:08,534] {logging_mixin.py:109} INFO - 52  --  [Research] Statistics on social-science statistics: "Observing many researchers using the same data and hypothesis reveals a hidden universe of uncertainty" "These results call for greater epistemic humility and clarity in reporting scientific findings"  --  statistics
+[2023-02-22 09:48:12,394] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:48:19,177] {logging_mixin.py:109} INFO - 53  --  Recent college grad looking to get a job in a Data Science Field  --  resumes
+[2023-02-22 09:48:23,112] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:48:26,549] {logging_mixin.py:109} INFO - 54  --  Is there any cross section between cyber security and data science/ML?  --  cybersecurity
+[2023-02-22 09:48:27,214] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:48:34,417] {logging_mixin.py:109} INFO - 55  --  How's the data science job market in the UK?  --  datascience
+[2023-02-22 09:48:37,423] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:48:41,933] {logging_mixin.py:109} INFO - 56  --  Can I get a Public Health job with a Computer Science/Data Science degree? / Is an MPH necessary?  --  publichealth
+[2023-02-22 09:48:44,605] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:48:53,628] {logging_mixin.py:109} INFO - 57  --  For Colbert fans, donning a mask is a ritualistic symbol. It tells the world they “Believe in Science” … and their beloved talk show host. Never mind that a new, peer-reviewed analysis, compiling data from 78 previous studies, showed masking has little to no impact on spreading COVID-19.  --  ConservativesOnly
+[2023-02-22 09:48:57,322] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:49:04,468] {logging_mixin.py:109} INFO - 58  --  What is doing Data Science at UniMelb like?  --  unimelb
+[2023-02-22 09:49:09,463] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:49:12,871] {logging_mixin.py:109} INFO - 59  --  Dev em 6 meses é pros fracos, esse aqui promete Data Science em 3  --  brdev
+[2023-02-22 09:49:19,165] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:49:27,380] {logging_mixin.py:109} INFO - 60  --  Is it difficult to compete for data science jobs right now?  --  datascience
+[2023-02-22 09:49:30,247] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:49:38,164] {logging_mixin.py:109} INFO - 61  --  AI, Machine Learning, Data Science - koji fakultet?  --  StudentiSrbija
+[2023-02-22 09:49:43,914] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:49:52,432] {logging_mixin.py:109} INFO - 62  --  Is 6+ interviews normal for data science positions?  --  recruitinghell
+[2023-02-22 09:49:58,631] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:50:08,950] {logging_mixin.py:109} INFO - 63  --  Are minors worth it? Specifically data science.  --  csMajors
+[2023-02-22 09:50:10,407] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:50:19,128] {logging_mixin.py:109} INFO - 64  --  Why is Data Science as a Bachelor Degree Not a Good Idea to Take?  --  OntarioUniversities
+[2023-02-22 09:50:22,381] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:50:29,420] {logging_mixin.py:109} INFO - 65  --  hi I am starting a data science bootcamp next week for 6 months,I would like to ask how easy is to find a job ? thanks  --  datascience
+[2023-02-22 09:50:33,057] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:50:39,664] {logging_mixin.py:109} INFO - 66  --  Rate my resume. I have worked in software testing and development. Now transitioning into Data Science and AI.  --  resumes
+[2023-02-22 09:50:41,160] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:50:52,282] {logging_mixin.py:109} INFO - 67  --  DC is #2 in the US for methadone involved overdoses (4.1/100K population) according to data from the Centers for Disease Control and Prevention and published in the journal Forensic Science International.  --  washingtondc
+[2023-02-22 09:50:54,704] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:51:05,526] {logging_mixin.py:109} INFO - 68  --  Is the 1560 Data Science track worth it over private sector?  --  fednews
+[2023-02-22 09:51:09,591] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:51:17,964] {logging_mixin.py:109} INFO - 69  --  Data science model goes to production  --  dataengineering
+[2023-02-22 09:51:21,719] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:51:31,038] {logging_mixin.py:109} INFO - 70  --  Imperial College London (Economics, Finance, and Data Science)L1N3  --  6thForm
+[2023-02-22 09:51:36,869] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:51:46,855] {logging_mixin.py:109} INFO - 71  --  Is it normal to be quite forgetful of techniques/methods in data science?  --  datascience
+[2023-02-22 09:51:50,661] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:51:59,135] {logging_mixin.py:109} INFO - 72  --  South Africa's rand retreated early on Friday, losing gains made after U.S. data offered hope inflation was now on a sustained downward trend, potentially allowing the Federal Reserve to slow its policy tightening pace. At 0643 GMT, the rand traded at 16.7600 against the dollar, 0.18%  --  EastAfricaNews
+[2023-02-22 09:52:02,270] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:52:10,765] {logging_mixin.py:109} INFO - 73  --  From Academia to Data Science: How to efficiently  --  datascience
+[2023-02-22 09:52:18,493] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:52:26,594] {logging_mixin.py:109} INFO - 74  --  If you had to start all over again but in your late 30s / early 40s, would you pursue a FP&A career or a data analytics / data science career?  --  FPandA
+[2023-02-22 09:52:31,722] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:52:40,330] {logging_mixin.py:109} INFO - 75  --  South Africa's rand retreated early on Friday, losing gains made after U.S. data offered hope inflation was now on a sustained downward trend, potentially allowing the Federal Reserve to slow its policy tightening pace. At 0643 GMT, the rand traded at 16.7600 against the dollar, 0.18%  --  EastAfricaNews
+[2023-02-22 09:52:41,626] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:52:50,531] {logging_mixin.py:109} INFO - 76  --  I manage a data science team that works with a data engineering team. I want to learn more about data engineering to be a better colleague. Where should I start?  --  dataengineering
+[2023-02-22 09:52:54,111] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:53:00,913] {logging_mixin.py:109} INFO - 77  --  Quant Finance vs Data Science in 2023  --  datascience
+[2023-02-22 09:53:05,973] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:53:14,375] {logging_mixin.py:109} INFO - 78  --  [Top Stories] - Inflation may be retreating more than December's consumer price data actually shows  --  NBCauto
+[2023-02-22 09:53:20,955] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:53:27,874] {logging_mixin.py:109} INFO - 79  --  [Top Stories] - Inflation may be retreating more than December's consumer price data actually shows | NBC  --  AutoNewspaper
+[2023-02-22 09:53:29,991] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:53:38,298] {logging_mixin.py:109} INFO - 80  --  Is data science boring?  --  datascience
+[2023-02-22 09:53:41,664] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:53:49,890] {logging_mixin.py:109} INFO - 81  --  JP Morgan FAST Data Science Coding Interview  --  datascience
+[2023-02-22 09:53:54,981] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:54:02,475] {logging_mixin.py:109} INFO - 82  --  Are there any good, practical Data Science "Cookbook" style books/materials? Ie with step by step instructions, code  --  datascience
+[2023-02-22 09:54:04,133] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:54:15,070] {logging_mixin.py:109} INFO - 83  --  Without Climate Change Deniers, "Climate Science" would not be compelled to manipulate Data  --  conspiracy
+[2023-02-22 09:54:17,338] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:54:26,352] {logging_mixin.py:109} INFO - 84  --  Data Science capped major application result  --  UCSD
+[2023-02-22 09:54:32,061] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:54:36,826] {logging_mixin.py:109} INFO - 85  --  Are there any online courses (data science, computer language/coding) you can take if you want to get into LIS?  --  medlabprofessionals
+[2023-02-22 09:54:42,316] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:54:47,295] {logging_mixin.py:109} INFO - 86  --  Data science boot camp  --  workingmoms
+[2023-02-22 09:54:51,805] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:54:59,799] {logging_mixin.py:109} INFO - 87  --  Harvard SM in Data Science for Fall 2023  --  gradadmissions
+[2023-02-22 09:55:05,463] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:55:14,328] {logging_mixin.py:109} INFO - 88  --  Data Science Center is a 4/10 max  --  BostonU
+[2023-02-22 09:55:21,006] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:55:29,991] {logging_mixin.py:109} INFO - 89  --  Pay ranges offered for 10+ years of experience in Data Science / AI  --  developersIndia
+[2023-02-22 09:55:34,595] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:55:38,916] {logging_mixin.py:109} INFO - 90  --  Got my first Data Science job!!!  --  datascience
+[2023-02-22 09:55:46,174] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:55:55,032] {logging_mixin.py:109} INFO - 91  --  Self-Study Data Science - learning statistics  --  datascience
+[2023-02-22 09:55:57,816] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:56:05,380] {logging_mixin.py:109} INFO - 92  --  Has your country faced layoffs in data science?  --  datascience
+[2023-02-22 09:56:11,153] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:56:18,033] {logging_mixin.py:109} INFO - 93  --  Got accepted Statistics and Data Science, Auto w 1260 SAT  --  UTAdmissions
+[2023-02-22 09:56:23,259] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:56:30,944] {logging_mixin.py:109} INFO - 94  --  data science majors, where are u now? any class advice for students wanting to become product managers and data scientists rather than swe?  --  berkeley
+[2023-02-22 09:56:36,328] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:56:42,399] {logging_mixin.py:109} INFO - 95  --  Data science building  --  BostonU
+[2023-02-22 09:56:47,294] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:56:54,748] {logging_mixin.py:109} INFO - 96  --  Current Job Unrelated to Data Science  --  OMSA
+[2023-02-22 09:57:00,228] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:57:05,718] {logging_mixin.py:109} INFO - 97  --  Data Science course advice  --  universityofauckland
+[2023-02-22 09:57:11,440] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:57:23,951] {logging_mixin.py:109} INFO - 98  --  MS Data Science or Business Analytics?  --  analytics
+[2023-02-22 09:57:27,067] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:57:36,208] {logging_mixin.py:109} INFO - 99  --  Imperial econ, finance and data science bread  --  6thForm
+[2023-02-22 09:57:37,451] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:57:53,100] {logging_mixin.py:109} INFO - 100  --  How much of a threat is AI to the use of data science in urban planning?  --  urbanplanning
+[2023-02-22 09:58:01,241] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:58:08,573] {logging_mixin.py:109} INFO - 101  --  What job to transition after Data Science?  --  datascience
+[2023-02-22 09:58:16,139] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:58:25,309] {logging_mixin.py:109} INFO - 102  --  Data Science for Finance Jobs  --  FinancialCareers
+[2023-02-22 09:58:31,890] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:58:46,447] {logging_mixin.py:109} INFO - 103  --  Looking for guidance from data science professionals  --  datascience
+[2023-02-22 09:58:52,610] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:59:02,280] {logging_mixin.py:109} INFO - 104  --  Does anyone else find Python clunky for simple data science?  --  datascience
+[2023-02-22 09:59:06,251] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:59:16,028] {logging_mixin.py:109} INFO - 105  --  A new way to accelerate your data science workflow  --  Python
+[2023-02-22 09:59:18,631] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:59:27,839] {logging_mixin.py:109} INFO - 106  --  ATAI LIFE SCIENCES announces Phase 2a PCN 101 data - primary endpoints not met.  --  shroomstocks
+[2023-02-22 09:59:34,873] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:59:44,230] {logging_mixin.py:109} INFO - 107  --  1 year ago I started building Practice Probs - a site with 138 programming practice problems primarily focused on Python for data science  --  Python
+[2023-02-22 09:59:49,663] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 09:59:57,603] {logging_mixin.py:109} INFO - 108  --  David Joyner Discussing OMSCS on Value Driven Data Science Podcast  --  OMSCS
+[2023-02-22 10:00:01,312] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:00:12,890] {logging_mixin.py:109} INFO - 109  --  Where can I buy entrance book for MSc.CSIT and MS. Data Science, TU?  --  technepal
+[2023-02-22 10:00:21,061] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:00:30,257] {logging_mixin.py:109} INFO - 110  --  M23, can a science IA only have data in the appendix?  --  IBO
+[2023-02-22 10:00:37,493] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:00:49,278] {logging_mixin.py:109} INFO - 111  --  What is something ChatGPT (or any LLM) could do, that it can’t currently, that would actually worry you about the future of data science?  --  datascience
+[2023-02-22 10:00:51,012] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:01:03,782] {logging_mixin.py:109} INFO - 112  --  6 Months in First Data Science Job  --  datascience
+[2023-02-22 10:01:05,325] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:01:19,002] {logging_mixin.py:109} INFO - 113  --  Is a biology and data science degree good enough ?  --  bioinformatics
+[2023-02-22 10:01:22,643] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:01:33,371] {logging_mixin.py:109} INFO - 114  --  Why is my science experiment on gilly not transmitting data back?  --  KerbalAcademy
+[2023-02-22 10:01:47,188] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:01:53,337] {logging_mixin.py:109} INFO - 115  --  Feasibility of using no code / low code platforms such as KNIME and DataIku for social science research  --  datascience
+[2023-02-22 10:01:58,725] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:02:09,196] {logging_mixin.py:109} INFO - 116  --  Which programming languages (or framework) skills will be recession-proof and worth learning in 2023 Data Engineering or Data science job market?  --  dataengineering
+[2023-02-22 10:02:13,656] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:02:22,859] {logging_mixin.py:109} INFO - 117  --  TUM Mathematics in Data Science or RWTH Data Science (Master)  --  rwth
+[2023-02-22 10:02:36,701] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:02:45,318] {logging_mixin.py:109} INFO - 118  --  What do you think about a student loan (30L+) for MSc. Data science in the UK?  --  Indians_StudyAbroad
+[2023-02-22 10:02:52,764] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:03:02,951] {logging_mixin.py:109} INFO - 119  --  [CO-WORKING SPACES] Do developers or data science or IT Teams love co-working spaces? What are the pros and cons for these roles to be in co-working spaces?  --  ExperiencedDevs
+[2023-02-22 10:03:16,745] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:03:26,294] {logging_mixin.py:109} INFO - 120  --  Where can I find researches, articles, or academic papers on how companies make use of data science?  --  datascience
+[2023-02-22 10:03:31,983] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:03:46,281] {logging_mixin.py:109} INFO - 121  --  Data Science or Software Dev jobs in the future?  --  Futurology
+[2023-02-22 10:04:00,782] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:04:13,903] {logging_mixin.py:109} INFO - 122  --  Need to help to review SOP for Data Science Masters  --  StatementOfPurpose
+[2023-02-22 10:04:27,098] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:04:38,148] {logging_mixin.py:109} INFO - 123  --  Imperial - Economics, Finance and Data Science  --  6thForm
+[2023-02-22 10:04:45,886] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:04:52,547] {logging_mixin.py:109} INFO - 124  --  Open Science Retreat  --  Open_Access_tracking
+[2023-02-22 10:05:02,877] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:05:11,944] {logging_mixin.py:109} INFO - 125  --  Ms in Data Science Germany or Canada  --  developersIndia
+[2023-02-22 10:05:24,899] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:05:31,832] {logging_mixin.py:109} INFO - 126  --  Ms in Data Science Germany or Canada  --  developersIndia
+[2023-02-22 10:05:35,770] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:05:47,930] {logging_mixin.py:109} INFO - 127  --  Python Data Science December [Completed] - 24 Data Science Projects  --  Python
+[2023-02-22 10:05:53,900] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:06:08,854] {logging_mixin.py:109} INFO - 128  --  I am looking to switch into a career in Data Science and have sent my resume to 50+ companies with no luck. I have 2+ years of experience in a similar industry and am not getting any interviews. Is my resume the issue?  --  resumes
+[2023-02-22 10:06:18,151] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:06:28,287] {logging_mixin.py:109} INFO - 129  --  Is there any loan facility available for IIT Madras BSc in Data Science online degree?  --  Indian_Academia
+[2023-02-22 10:06:34,424] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:06:41,998] {logging_mixin.py:109} INFO - 130  --  Undergraduate Data Science  --  SJSU
+[2023-02-22 10:06:54,909] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:07:09,660] {logging_mixin.py:109} INFO - 131  --  Choosing between statistics and data science degree  --  datascience
+[2023-02-22 10:07:22,644] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:07:33,157] {logging_mixin.py:109} INFO - 132  --  Rupiah retreats to $15,560 despite firmer Indonesia Inflation, PMI data  --  tradinglifeline
+[2023-02-22 10:07:37,510] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:07:45,088] {logging_mixin.py:109} INFO - 133  --  Early career Machine Learning / Data Science resume. Not getting many responses, even for internships. What's wrong?  --  EngineeringResumes
+[2023-02-22 10:07:58,379] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:08:12,360] {logging_mixin.py:109} INFO - 134  --  Anyone applied to Harvard Data Science Master?  --  gradadmissions
+[2023-02-22 10:08:26,334] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:08:43,351] {logging_mixin.py:109} INFO - 135  --  "Raising the value of research studies in psychological science by increasing the credibility of research reports: the transparent Psi project", Kekecs et al 2023 (methodology testbed: prereg adv. collab, video-recorded real-time timestamped open data w/large _n_; no psi found)  --  psychology
+[2023-02-22 10:08:49,942] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:09:00,639] {logging_mixin.py:109} INFO - 136  --  2023 EY Open Science Data Challenge - Looking for team members!  --  nus
+[2023-02-22 10:09:10,204] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:09:24,240] {logging_mixin.py:109} INFO - 137  --  Can Data Science work flows follow agile? How do we handle EDA, when directions change on a weekly basis based on findings?  --  datascience
+[2023-02-22 10:09:38,252] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:09:45,830] {logging_mixin.py:109} INFO - 138  --  /r/DataScience user boldly claims that data science is the most powerful skill in the world. His claim is not met with the same enthusiasm.  --  SubredditDrama
+[2023-02-22 10:09:59,360] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:10:11,452] {logging_mixin.py:109} INFO - 139  --  Is "data science" a bubble about to burst?  --  developersIndia
+[2023-02-22 10:10:18,563] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:10:37,295] {logging_mixin.py:109} INFO - 140  --  Switching to Data Science and Artificial Intelligence  --  cscareerquestions
+[2023-02-22 10:10:48,692] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:11:02,787] {logging_mixin.py:109} INFO - 141  --  4 Pillar of Data Science You Should Know  --  coolguides
+[2023-02-22 10:11:08,146] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:11:26,561] {logging_mixin.py:109} INFO - 142  --  What are some popular Python career paths other than Data Science and Machine Learning?  --  learnpython
+[2023-02-22 10:11:34,685] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:11:48,156] {logging_mixin.py:109} INFO - 143  --  Not getting an interview call for Data Science Opportunity  --  austinjobs
+[2023-02-22 10:11:59,529] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:12:19,912] {logging_mixin.py:109} INFO - 144  --  Data science vs Actuarial science  --  datascience
+[2023-02-22 10:12:22,250] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:12:38,884] {logging_mixin.py:109} INFO - 145  --  “Goodbye, Data Science”  --  datascience
+[2023-02-22 10:12:45,470] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:13:09,120] {logging_mixin.py:109} INFO - 146  --  Delaware was #3 in the US for methadone involved overdoses ( 3.3/100K population) according to data from the Centers for Disease Control and Prevention and published in the journal Forensic Science International.  --  Delaware
+[2023-02-22 10:13:27,143] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:13:37,238] {logging_mixin.py:109} INFO - 147  --  What features of the Python language predestined it to be so accepted in data science, machine learning and artificial intelligence?  --  Python
+[2023-02-22 10:13:51,091] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:14:03,064] {logging_mixin.py:109} INFO - 148  --  Hello everyone my name is Kenny and am a beginner in data analysis and am new to Reddit Data science community  --  datascience
+[2023-02-22 10:14:14,524] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:14:35,024] {logging_mixin.py:109} INFO - 149  --  What's the most stressful moment in your data science career?  --  datascience
+[2023-02-22 10:14:39,869] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:14:50,848] {logging_mixin.py:109} INFO - 150  --  Data science for freelancing?  --  Tunisia
+[2023-02-22 10:15:04,488] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:15:20,109] {logging_mixin.py:109} INFO - 151  --  Data science for freelancing?  --  Tunisia
+[2023-02-22 10:15:23,139] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:15:33,476] {logging_mixin.py:109} INFO - 152  --  data science (jupyter notebooks) with vim?  --  vim
+[2023-02-22 10:15:50,477] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:16:09,972] {logging_mixin.py:109} INFO - 153  --  Data Science Majors - How's it going?  --  ucf
+[2023-02-22 10:16:15,988] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:16:33,709] {logging_mixin.py:109} INFO - 154  --  Options of bad communicators in data science  --  datascience
+[2023-02-22 10:16:40,563] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:16:45,490] {logging_mixin.py:109} INFO - 155  --  Is majoring in data science a good idea? I want to go into tech, but not full on comp sci. How hard is it?  --  BostonU
+[2023-02-22 10:17:02,534] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:17:24,748] {logging_mixin.py:109} INFO - 156  --  Someone just told me that people are trying to get out of data science is this true?  --  datascience
+[2023-02-22 10:17:30,060] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:17:48,973] {logging_mixin.py:109} INFO - 157  --  Стоит ли обучаться на data science?  --  tjournal_refugees
+[2023-02-22 10:17:57,489] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:18:18,406] {logging_mixin.py:109} INFO - 158  --  EE Masters student looking to break into Product Management or Data Science. Seeking PM/DS Internship roles in IOT/Software development/SaaS companies. Hundreds of applications without a single interview. Seeking feedbacks to improve resume.  --  resumes
+[2023-02-22 10:18:31,711] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:18:43,414] {logging_mixin.py:109} INFO - 159  --  @Reuters: RT @ReutersScience: Across the mountains, located on the arid northeastern edge of the Tibetan plateau, glacier retreat was melting 50% faster in 1990-2010 than it was from 1956 to 1990, data from the China Academy of Sciences shows https://t.co/5c5BzKwpSV 2/11 https://t.co/0Hl8ZXW5SO  --  newsbotbot
+[2023-02-22 10:18:52,657] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:19:02,916] {logging_mixin.py:109} INFO - 160  --  Yahoo Fantasy Basketball Data Science Project  --  fantasybball
+[2023-02-22 10:19:19,449] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:19:43,046] {logging_mixin.py:109} INFO - 161  --  Masters Data Science/ Masters Financial Mathematics/ Masters Computer Science  --  unsw
+[2023-02-22 10:19:52,785] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:20:07,573] {logging_mixin.py:109} INFO - 162  --  Going into cancer research in data science  --  datascience
+[2023-02-22 10:20:14,290] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:20:29,767] {logging_mixin.py:109} INFO - 163  --  MTG Asks If COVID Vaccines Are Linked with Fetal Demise. Here's the Science: "There's no data to suggest increased fetal demise after COVID vaccination, but there's ample data showing increased maternal death caused by COVID infection"  --  RepublicanValues
+[2023-02-22 10:20:44,173] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:20:57,718] {logging_mixin.py:109} INFO - 164  --  Imperial Interview for BSc Economics Finance and Data Science.  --  6thForm
+[2023-02-22 10:21:08,216] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:21:31,400] {logging_mixin.py:109} INFO - 165  --  hot take: forget data science, we need more analysts  --  datascience
+[2023-02-22 10:21:44,294] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:21:51,890] {logging_mixin.py:109} INFO - 166  --  [OC] BU’s Center for Data Science  --  architecture
+[2023-02-22 10:22:05,491] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:22:13,672] {logging_mixin.py:109} INFO - 167  --  MS Data Science/ Machine Learning or related programs admits and rejects - A thread  --  gradadmissions
+[2023-02-22 10:22:27,057] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:22:48,220] {logging_mixin.py:109} INFO - 168  --  [Q] [Network Science Related] How much percentage of the actual network nodes (and its corresponding links) need to be in the data in order to "properly" describe the network?  --  statistics
+[2023-02-22 10:22:54,636] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:23:17,628] {logging_mixin.py:109} INFO - 169  --  Any data science class recommendations?  --  berkeley
+[2023-02-22 10:23:27,138] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:23:42,438] {logging_mixin.py:109} INFO - 170  --  Why business data science irritates me  --  datascience
+[2023-02-22 10:23:57,114] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:24:15,243] {logging_mixin.py:109} INFO - 171  --  Imperial’s economics, finance and data science course  --  6thForm
+[2023-02-22 10:24:22,523] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:24:39,164] {logging_mixin.py:109} INFO - 172  --  Can I do a masters in Data Science after bachelors in EE?  --  TUe
+[2023-02-22 10:24:55,707] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:25:12,495] {logging_mixin.py:109} INFO - 173  --  Yale - MS in Statistics & Data Science  --  gradadmissions
+[2023-02-22 10:25:30,043] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=data%20science%20retreat
+[2023-02-22 10:25:43,017] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/reddit_ingestion_dag.py", line 127, in scrape_test
+    scrape_keyword_from_reddit(competitors) # starlights waz
+  File "/opt/airflow/dags/scraper.py", line 137, in scrape_keyword_from_reddit
+    result = search_keywords_in_reddit(cmp.lower())
+  File "/opt/airflow/dags/scraper.py", line 63, in search_keywords_in_reddit
+    post_url = driver.current_url
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 530, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=110.0.5481.100)
+Stacktrace:
+#0 0x55ebabc09d93 <unknown>
+#1 0x55ebab9d815d <unknown>
+#2 0x55ebab9c23aa <unknown>
+#3 0x55ebab9c0ee2 <unknown>
+#4 0x55ebab9c1682 <unknown>
+#5 0x55ebab9ceb4f <unknown>
+#6 0x55ebab9cf7a2 <unknown>
+#7 0x55ebab9dfdd1 <unknown>
+#8 0x55ebaba50787 <unknown>
+#9 0x55ebaba38353 <unknown>
+#10 0x55ebaba07e40 <unknown>
+#11 0x55ebaba09038 <unknown>
+#12 0x55ebabc5d8be <unknown>
+#13 0x55ebabc618f0 <unknown>
+#14 0x55ebabc41f90 <unknown>
+#15 0x55ebabc62b7d <unknown>
+#16 0x55ebabc33578 <unknown>
+#17 0x55ebabc87348 <unknown>
+#18 0x55ebabc874d6 <unknown>
+#19 0x55ebabca1341 <unknown>
+#20 0x7fd332435fa3 start_thread
+
+[2023-02-22 10:25:43,324] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=tutorial, task_id=scraping, execution_date=20230222T093931, start_date=20230222T093936, end_date=20230222T102543
+[2023-02-22 10:25:43,405] {standard_task_runner.py:92} ERROR - Failed to execute job 42 for task scraping
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/reddit_ingestion_dag.py", line 127, in scrape_test
+    scrape_keyword_from_reddit(competitors) # starlights waz
+  File "/opt/airflow/dags/scraper.py", line 137, in scrape_keyword_from_reddit
+    result = search_keywords_in_reddit(cmp.lower())
+  File "/opt/airflow/dags/scraper.py", line 63, in search_keywords_in_reddit
+    post_url = driver.current_url
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 530, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=110.0.5481.100)
+Stacktrace:
+#0 0x55ebabc09d93 <unknown>
+#1 0x55ebab9d815d <unknown>
+#2 0x55ebab9c23aa <unknown>
+#3 0x55ebab9c0ee2 <unknown>
+#4 0x55ebab9c1682 <unknown>
+#5 0x55ebab9ceb4f <unknown>
+#6 0x55ebab9cf7a2 <unknown>
+#7 0x55ebab9dfdd1 <unknown>
+#8 0x55ebaba50787 <unknown>
+#9 0x55ebaba38353 <unknown>
+#10 0x55ebaba07e40 <unknown>
+#11 0x55ebaba09038 <unknown>
+#12 0x55ebabc5d8be <unknown>
+#13 0x55ebabc618f0 <unknown>
+#14 0x55ebabc41f90 <unknown>
+#15 0x55ebabc62b7d <unknown>
+#16 0x55ebabc33578 <unknown>
+#17 0x55ebabc87348 <unknown>
+#18 0x55ebabc874d6 <unknown>
+#19 0x55ebabca1341 <unknown>
+#20 0x7fd332435fa3 start_thread
+
+[2023-02-22 10:25:43,651] {local_task_job.py:154} INFO - Task exited with return code 1
+[2023-02-22 10:25:43,758] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,533 @@
+[2023-02-22 14:40:38,581] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-22T14:01:26.042768+00:00 [queued]>
+[2023-02-22 14:40:38,853] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-22T14:01:26.042768+00:00 [queued]>
+[2023-02-22 14:40:38,855] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-22 14:40:38,856] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2023-02-22 14:40:38,857] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-22 14:40:38,884] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): scraping> on 2023-02-22 14:01:26.042768+00:00
+[2023-02-22 14:40:38,892] {standard_task_runner.py:52} INFO - Started process 41964 to run task
+[2023-02-22 14:40:38,903] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'scraping', 'manual__2023-02-22T14:01:26.042768+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmp_s9_9b50', '--error-file', '/tmp/tmp0eo22tnt']
+[2023-02-22 14:40:38,906] {standard_task_runner.py:77} INFO - Job 46: Subtask scraping
+[2023-02-22 14:40:39,033] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.scraping manual__2023-02-22T14:01:26.042768+00:00 [running]> on host 541881d0ad34
+[2023-02-22 14:40:39,134] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=scraping
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-22T14:01:26.042768+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-22T14:01:26.042768+00:00
+[2023-02-22 14:40:39,143] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-22 14:40:39,514] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-22 14:40:39,811] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-22 14:40:56,523] {logging_mixin.py:109} INFO - 1  --  Brainstation Bootcamp  --  askTO
+[2023-02-22 14:40:59,412] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:41:06,666] {logging_mixin.py:109} INFO - 2  --  ANYONE TRY THE BRAINSTATION UX BOOTCAMP? DID YOU GET A JOB AFTER  --  UserExperienceDesign
+[2023-02-22 14:41:07,205] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:41:16,796] {logging_mixin.py:109} INFO - 3  --  How Poor People Survive In The USA | BrainStation  --  TheDeprogram
+[2023-02-22 14:41:17,283] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:41:26,899] {logging_mixin.py:109} INFO - 4  --  Brainstation UX course?  --  UX_Design
+[2023-02-22 14:41:27,272] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:41:36,995] {logging_mixin.py:109} INFO - 5  --  BrainStation Data Science camp - How has it been for you?  --  codingbootcamp
+[2023-02-22 14:41:37,438] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:41:47,094] {logging_mixin.py:109} INFO - 6  --  Has anyone tried Brainstation/LighthouseLabs/springboard?  --  datascience
+[2023-02-22 14:41:47,514] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:41:57,223] {logging_mixin.py:109} INFO - 7  --  BrainStation bootcamp?  --  datascience
+[2023-02-22 14:41:57,752] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:42:07,336] {logging_mixin.py:109} INFO - 8  --  Coordinator, Email Marketing @ BrainStation  --  EmailJobs
+[2023-02-22 14:42:07,663] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:42:17,459] {logging_mixin.py:109} INFO - 9  --  I want to take a live instructor-led course but I am weary of scams. Any recommendations? Are New Horizons, Certsaffix, or Brainstation legit?  --  learnpython
+[2023-02-22 14:42:17,885] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:42:27,643] {logging_mixin.py:109} INFO - 10  --  Is brainstation bootcamp Digital marketing diploma worth it?  --  DigitalMarketing
+[2023-02-22 14:42:28,098] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:42:37,745] {logging_mixin.py:109} INFO - 11  --  London Data Scientist Jobs: Educator, Data Scientist- BrainStation London  --  BigDataJobs
+[2023-02-22 14:42:38,112] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:42:47,893] {logging_mixin.py:109} INFO - 12  --  Is brainstation bootcamp Digital marketing diploma worth it?  --  AskMarketing
+[2023-02-22 14:42:48,318] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:42:58,033] {logging_mixin.py:109} INFO - 13  --  Opinions on the Brainstation Data Science Bootcamp?  --  dataanalysis
+[2023-02-22 14:42:58,517] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:43:08,195] {logging_mixin.py:109} INFO - 14  --  BRAINSTATION VS CODEWORKS  --  codingbootcamp
+[2023-02-22 14:43:08,663] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:43:18,320] {logging_mixin.py:109} INFO - 15  --  BrainStation thoughts/experiences?  --  cscareerquestions
+[2023-02-22 14:43:18,936] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:43:28,485] {logging_mixin.py:109} INFO - 16  --  Thoughts on Brainstation product management course?  --  askTO
+[2023-02-22 14:43:28,878] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:43:38,658] {logging_mixin.py:109} INFO - 17  --  Any opinion on Brainstation courses?  --  vancouver
+[2023-02-22 14:43:39,092] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:43:48,866] {logging_mixin.py:109} INFO - 18  --  Is Brainstation boot camp good for somebody who wants to get into programming?  --  vancouver
+[2023-02-22 14:43:49,375] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:43:59,138] {logging_mixin.py:109} INFO - 19  --  Is BrainStation a good school?  --  vancouver
+[2023-02-22 14:43:59,781] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:44:09,269] {logging_mixin.py:109} INFO - 20  --  Bootcamps in Data science/ analytics - BrainStation or General Assembly or University of Toronto  --  careeradvice
+[2023-02-22 14:44:09,662] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:44:19,576] {logging_mixin.py:109} INFO - 21  --  Coding Bootcamp - Brainstation VS. Lighthouse Labs  --  learnprogramming
+[2023-02-22 14:44:20,413] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:44:29,737] {logging_mixin.py:109} INFO - 22  --  Bootcamps in Data science/ analytics - BrainStation or General Assembly or University of Toronto  --  askTO
+[2023-02-22 14:44:30,471] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:44:39,850] {logging_mixin.py:109} INFO - 23  --  [Distorted Rap] Ray - BRAINSTATIC  --  soundcloud
+[2023-02-22 14:44:40,497] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:44:50,010] {logging_mixin.py:109} INFO - 24  --  Bootcamps in Data science/ analytics - BrainStation or General Assembly or University of Toronto  --  learnprogramming
+[2023-02-22 14:44:50,540] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:00,128] {logging_mixin.py:109} INFO - 25  --  Brainstation Data Science Bootcamp vs General Assembly Data Science Immersive Bootcamp  --  learnprogramming
+[2023-02-22 14:45:00,739] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:11,286] {logging_mixin.py:109} INFO - 26  --  Incredible video on the suppressed science of Kundalini and Consciousness - this scientist was featured in the CIA Document for Remote Viewing (who were well aware of these brainstates). Must watch for anyone into consciousness science. [x/p /r/holofractal]  --  conspiracy
+[2023-02-22 14:45:12,365] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:19,367] {logging_mixin.py:109} INFO - 27  --  Brainstation Product Management  --  askTO
+[2023-02-22 14:45:19,863] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:24,484] {logging_mixin.py:109} INFO - 28  --  Lighthouse Labs vs Brainstation full stack development bootcamp  --  askTO
+[2023-02-22 14:45:25,747] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:31,213] {logging_mixin.py:109} INFO - 29  --  Brainstation digital marketing bootcamp, yay or nay ?  --  AskMarketing
+[2023-02-22 14:45:31,770] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:35,297] {logging_mixin.py:109} INFO - 30  --  BrainStation vs General Assembly?  --  askTO
+[2023-02-22 14:45:36,586] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:39,629] {logging_mixin.py:109} INFO - 31  --  Brainstation Certificate or HCI Masters?  --  UXDesign
+[2023-02-22 14:45:41,819] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:45,517] {logging_mixin.py:109} INFO - 32  --  Bootcamps in Data science/ analytics - BrainStation or General Assembly or University of Toronto  --  learnpython
+[2023-02-22 14:45:46,467] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:51,096] {logging_mixin.py:109} INFO - 33  --  Coding Bootcamp question - Lighthouse Labs vs Brainstation in Vancouver  --  vancouver
+[2023-02-22 14:45:52,258] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:45:55,946] {logging_mixin.py:109} INFO - 34  --  Thoughts on Brainstation courses? As employer and employee?  --  VancouverJobs
+[2023-02-22 14:45:57,329] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:01,623] {logging_mixin.py:109} INFO - 35  --  Brainstation vs Lighthouse Labs vs General Assembly  --  askTO
+[2023-02-22 14:46:02,962] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:05,472] {logging_mixin.py:109} INFO - 36  --  Trying to repair my brainstate from smartphones and social media while still enjoying technology convenience  --  nosurf
+[2023-02-22 14:46:07,446] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:09,971] {logging_mixin.py:109} INFO - 37  --  brainstats.com  --  ShitLiberalsSay
+[2023-02-22 14:46:12,156] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:14,561] {logging_mixin.py:109} INFO - 38  --  ¿Qué tal la UCreativa y BrainstationCR?  --  Ticos
+[2023-02-22 14:46:16,311] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:21,128] {logging_mixin.py:109} INFO - 39  --  Insight into BrainStation Full-Time Data Science Bootcamp  --  vancouver
+[2023-02-22 14:46:21,963] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:26,450] {logging_mixin.py:109} INFO - 40  --  Did anybody actually attend a Digital Marketing bootcamp like Brainstation, Red Academy or General Assembly and get a job because of it?  --  askTO
+[2023-02-22 14:46:28,278] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:31,004] {logging_mixin.py:109} INFO - 41  --  Horrific rule  --  196
+[2023-02-22 14:46:33,992] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:38,131] {logging_mixin.py:109} INFO - 42  --  Brainstation web development bootcamp: recent grads, how’s your experience been so far?  --  askTO
+[2023-02-22 14:46:39,512] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:42,940] {logging_mixin.py:109} INFO - 43  --  Bootcamps in Data science/ analytics - BrainStation or General Assembly or University of Toronto  --  cscareerquestions
+[2023-02-22 14:46:43,786] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:46,830] {logging_mixin.py:109} INFO - 44  --  Brainstation VS Juno College(or HackerYou)  --  askTO
+[2023-02-22 14:46:48,871] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:53,610] {logging_mixin.py:109} INFO - 45  --  BrainStation vs General Assemb.ly vs Juno UX courses (Toronto)  --  askTO
+[2023-02-22 14:46:54,645] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:46:58,141] {logging_mixin.py:109} INFO - 46  --  Alternatives to Hackeryou / Brainstation  --  askTO
+[2023-02-22 14:46:58,902] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:47:02,456] {logging_mixin.py:109} INFO - 47  --  Certificates (Canada): Product School, Product Faculty, Pragmatic, Brainstation, General Assembly - Any feedback?  --  ProductManagement
+[2023-02-22 14:47:04,013] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:47:06,915] {logging_mixin.py:109} INFO - 48  --  Fight it with spite. Worth a shot.  --  adhdmeme
+[2023-02-22 14:47:10,316] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:47:14,718] {logging_mixin.py:109} INFO - 49  --  Juno College (Formerly HackerYou) vs BrainStation vs UofT SCS coding Bootcamp  --  askTO
+[2023-02-22 14:47:15,466] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:47:19,280] {logging_mixin.py:109} INFO - 50  --  GSAP is my dream library  --  webdev
+[2023-02-22 14:47:20,989] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=brainstation
+[2023-02-22 14:47:21,525] {logging_mixin.py:109} INFO - Reached to the end, no more post!
+[2023-02-22 14:47:21,671] {logging_mixin.py:109} INFO -  -------------------- BrainStation --------------------
+[2023-02-22 14:47:21,742] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-22 14:47:21,929] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-22 14:47:22,181] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-22 14:47:38,292] {logging_mixin.py:109} INFO - 1  --  Anyone here have an opinion on Thinkful Bootcamp?  --  codingbootcamp
+[2023-02-22 14:47:42,218] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:47:44,716] {logging_mixin.py:109} INFO - 2  --  Thinkful  --  codingbootcamp
+[2023-02-22 14:47:45,651] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:47:48,219] {logging_mixin.py:109} INFO - 3  --  Accepted into Thinkful bootcamp, but…  --  codingbootcamp
+[2023-02-22 14:47:50,227] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:47:52,596] {logging_mixin.py:109} INFO - 4  --  Has anyone taken Thinkful Cohort?  --  learnprogramming
+[2023-02-22 14:47:52,977] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:47:55,131] {logging_mixin.py:109} INFO - 5  --  Thinkful Chegg Deals  --  OffersLovable
+[2023-02-22 14:47:55,531] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:47:58,909] {logging_mixin.py:109} INFO - 6  --  Thinkful Chegg Promo Code  --  FrankDeals
+[2023-02-22 14:47:59,321] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:01,485] {logging_mixin.py:109} INFO - 7  --  Chegg Thinkful Coupon Code  --  HiddenOffers
+[2023-02-22 14:48:02,314] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:04,901] {logging_mixin.py:109} INFO - 8  --  Chegg Thinkful Discount Code  --  OffersLovable
+[2023-02-22 14:48:06,629] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:09,790] {logging_mixin.py:109} INFO - 9  --  Chegg Thinkful Promo Code  --  FrankDeals
+[2023-02-22 14:48:10,389] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:14,067] {logging_mixin.py:109} INFO - 10  --  Has anyone worked as a mentor? Specifically with Chegg/Thinkful?  --  cybersecurity
+[2023-02-22 14:48:14,787] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:20,246] {logging_mixin.py:109} INFO - 11  --  Thinkful Bootcamp, need updated material/curriculum, from one Dev to another :'/  --  codingbootcamp
+[2023-02-22 14:48:20,677] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:24,492] {logging_mixin.py:109} INFO - 12  --  Thinkful Software Engineer Bootcamp Thoughts?  --  codingbootcamp
+[2023-02-22 14:48:25,255] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:28,603] {logging_mixin.py:109} INFO - 13  --  Thinkful Chegg Discount Code  --  OffersLovable
+[2023-02-22 14:48:29,194] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:31,897] {logging_mixin.py:109} INFO - 14  --  Thinkful Chegg Coupon Code  --  HiddenOffers
+[2023-02-22 14:48:33,256] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:35,802] {logging_mixin.py:109} INFO - 15  --  Thinkful Chegg Discount Code  --  OffersLovable
+[2023-02-22 14:48:36,338] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:39,501] {logging_mixin.py:109} INFO - 16  --  Chegg Thinkful Deals  --  OffersLovable
+[2023-02-22 14:48:40,208] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:43,922] {logging_mixin.py:109} INFO - 17  --  Guys tryna get to the IT world, I signed up for thinkful cuz get 100% tuition reimbursement from my employer. Have u ever heard or know someone who did the Cibersecurity certification from thinkful?  --  CompTIA
+[2023-02-22 14:48:44,652] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:47,445] {logging_mixin.py:109} INFO - 18  --  Hack Reactor and ThinkfulHQ opinions?  --  learnprogramming
+[2023-02-22 14:48:49,048] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:52,398] {logging_mixin.py:109} INFO - 19  --  Thinkful bootcamp  --  codingbootcamp
+[2023-02-22 14:48:53,085] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:48:55,494] {logging_mixin.py:109} INFO - 20  --  Thinkful’s Coding Chatsheet  --  DevTo
+[2023-02-22 14:48:56,933] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:03,246] {logging_mixin.py:109} INFO - 21  --  do you think im hot? 💅  --  shitposting
+[2023-02-22 14:49:04,584] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:08,550] {logging_mixin.py:109} INFO - 22  --  Anyone have any tips or tricks on passing Thinkful UX/UI Design prep assessment?  --  codingbootcamp
+[2023-02-22 14:49:09,235] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:13,414] {logging_mixin.py:109} INFO - 23  --  Question about Thinkful part-time  --  codingbootcamp
+[2023-02-22 14:49:14,279] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:17,590] {logging_mixin.py:109} INFO - 24  --  Hack Reactor and ThinkfulHQ opinions?  --  cscareerquestions
+[2023-02-22 14:49:18,522] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:21,098] {logging_mixin.py:109} INFO - 25  --  Hack Reactor and ThinkfulHQ opinions?  --  codingbootcamp
+[2023-02-22 14:49:21,890] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:28,680] {logging_mixin.py:109} INFO - 26  --  I’m beginning to think that Top G means that they accept Andrew Tate as their God.  --  terriblefacebookmemes
+[2023-02-22 14:49:29,392] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:32,001] {logging_mixin.py:109} INFO - 27  --  Has anyone done the Thinkful UX boot camp?  --  uxwriting
+[2023-02-22 14:49:33,738] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:39,932] {logging_mixin.py:109} INFO - 28  --  what's a food combo you love that people think you're weird for?  --  AskReddit
+[2023-02-22 14:49:40,553] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:47,396] {logging_mixin.py:109} INFO - 29  --  Guys, what’s the most unattractive thing girls do that they think is attractive?  --  AskReddit
+[2023-02-22 14:49:48,432] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:49:52,256] {logging_mixin.py:109} INFO - 30  --  BEST DATA COURSES: Udacity, Coursera, Springboard, Thinkful, or EdX?  --  dataanalysis
+[2023-02-22 14:49:53,493] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:50:02,636] {logging_mixin.py:109} INFO - 31  --  What's the best response to "Dad, I think I'm gay"?  --  AskReddit
+[2023-02-22 14:50:03,460] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:50:10,368] {logging_mixin.py:109} INFO - 32  --  I definitely think he would not.  --  WhitePeopleTwitter
+[2023-02-22 14:50:12,159] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:50:25,176] {logging_mixin.py:109} INFO - 33  --  OOP's husband thinks she babytraped him. New update  --  BestofRedditorUpdates
+[2023-02-22 14:50:25,892] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:50:38,594] {logging_mixin.py:109} INFO - 34  --  That's what you think Jack  --  terriblefacebookmemes
+[2023-02-22 14:50:39,396] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:50:52,894] {logging_mixin.py:109} INFO - 35  --  Canadians think tipping is ‘getting out of control,’ new poll suggest  --  canada
+[2023-02-22 14:50:53,715] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:51:06,971] {logging_mixin.py:109} INFO - 36  --  LPT: Stop staying longer than you have to at work. Sure, you may think that it gets you noticed for a promotion but it also gets you noticed to be used.  --  LifeProTips
+[2023-02-22 14:51:07,911] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:51:21,084] {logging_mixin.py:109} INFO - 37  --  My local Home Depot was not thinking when they put this up  --  pics
+[2023-02-22 14:51:21,953] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:51:31,105] {logging_mixin.py:109} INFO - 38  --  Hack Reactor and ThinkfulHQ opinions?  --  ITCareerQuestions
+[2023-02-22 14:51:31,704] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:51:41,439] {logging_mixin.py:109} INFO - 39  --  Tuition Refund Guarantee @ Thinkful  --  codingbootcamp
+[2023-02-22 14:51:42,188] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:51:55,131] {logging_mixin.py:109} INFO - 40  --  Curious to know what the UK thinks of the menu at our quaint little British shop in the middle of middle America…  --  CasualUK
+[2023-02-22 14:51:56,059] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:52:07,331] {logging_mixin.py:109} INFO - 41  --  First bubble bath in nearly 35 years. I think I did something wrong?  --  funny
+[2023-02-22 14:52:08,365] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:52:20,361] {logging_mixin.py:109} INFO - 42  --  When someone thinks they can be a professional videographer with their phone  --  WatchPeopleDieInside
+[2023-02-22 14:52:21,257] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:52:33,752] {logging_mixin.py:109} INFO - 43  --  Out of all the enemies you can fight in Skyrim, which one do you think you could take with your IRL capacities ?  --  skyrim
+[2023-02-22 14:52:35,123] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:52:46,429] {logging_mixin.py:109} INFO - 44  --  AITA for thinking that my sister is selfish for wanting to skip my wedding cause of her "trauma" ?  --  AmItheAsshole
+[2023-02-22 14:52:47,380] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:52:56,433] {logging_mixin.py:109} INFO - 45  --  Thinkful  --  walmart
+[2023-02-22 14:52:57,285] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:53:10,043] {logging_mixin.py:109} INFO - 46  --  Red state America needs a civics lesson if they think this is now a “law”  --  WhitePeopleTwitter
+[2023-02-22 14:53:10,954] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:53:20,020] {logging_mixin.py:109} INFO - 47  --  Thinkful Bootcamp  --  learnprogramming
+[2023-02-22 14:53:20,677] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:53:33,711] {logging_mixin.py:109} INFO - 48  --  Do you think critics are harsher towards Marvel movies now than they were in the past?  --  marvelstudios
+[2023-02-22 14:53:34,537] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:53:46,658] {logging_mixin.py:109} INFO - 49  --  Former JRE guest Sam Harris on the post pandemic conspiracy thinking  --  JoeRogan
+[2023-02-22 14:53:47,711] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:54:00,211] {logging_mixin.py:109} INFO - 50  --  Reddit, what did y’all think of the Jesus commercials during the Super Bowl?  --  AskReddit
+[2023-02-22 14:54:01,099] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:54:13,731] {logging_mixin.py:109} INFO - 51  --  What do you think of when you see this album?  --  CasualUK
+[2023-02-22 14:54:14,718] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:54:26,852] {logging_mixin.py:109} INFO - 52  --  When people think your voice isn't real  --  Unexpected
+[2023-02-22 14:54:27,731] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:54:40,181] {logging_mixin.py:109} INFO - 53  --  Do you think TikTok is making us dumber as a species?  --  ask
+[2023-02-22 14:54:41,042] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:54:52,966] {logging_mixin.py:109} INFO - 54  --  What's he thinking?  --  Funnymemes
+[2023-02-22 14:54:53,996] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:55:05,725] {logging_mixin.py:109} INFO - 55  --  My girlfriend calls this lonely man’s food. What do you guys think?  --  CasualUK
+[2023-02-22 14:55:06,862] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:55:18,646] {logging_mixin.py:109} INFO - 56  --  My family still misgenders me even though I think I fully pass 😪  --  lgbt
+[2023-02-22 14:55:19,592] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:55:28,517] {logging_mixin.py:109} INFO - 57  --  Draymond Green on Lebron: "I recently said he’s the greatest face the NBA has ever had. Think about the day and age we live in – cameras, social media – he’s never had a scandal. Never been arrested. Never photo’d drunk. Those things go hand in hand with durability, longevity, consistency."  --  nba
+[2023-02-22 14:55:29,370] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:55:36,555] {logging_mixin.py:109} INFO - 58  --  What do people in 2023 think about the ‘women & children 1st’ rule?  --  AskReddit
+[2023-02-22 14:55:38,353] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:55:44,022] {logging_mixin.py:109} INFO - 59  --  Local Indian restaurant finally saying what everyone’s thinking  --  funny
+[2023-02-22 14:55:44,683] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:55:52,531] {logging_mixin.py:109} INFO - 60  --  More than seven in ten Canadians (72%) believe that the tax burden of individuals is too high; meanwhile eight in ten (80%) think that the rich should be taxed more.  --  canada
+[2023-02-22 14:55:53,380] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:55:59,133] {logging_mixin.py:109} INFO - 61  --  What do you think of Volodymyr Zelenskky?  --  AskReddit
+[2023-02-22 14:56:01,162] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:56:07,505] {logging_mixin.py:109} INFO - 62  --  What do you think of when you see this album?  --  CasualUK
+[2023-02-22 14:56:08,439] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:56:14,742] {logging_mixin.py:109} INFO - 63  --  Imagine thinking shithole Arkansas is “the best place to live, work and raise a family.”  --  WhitePeopleTwitter
+[2023-02-22 14:56:17,247] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:56:24,215] {logging_mixin.py:109} INFO - 64  --  Kyrie on trades: “When did it become terrible to make great business decisions for yourself?Not every employer you're going to get along with, so if you have the chance to go somewhere else and you're doing it legally, I don't think there's a problem with it."  --  nba
+[2023-02-22 14:56:25,535] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:56:31,973] {logging_mixin.py:109} INFO - 65  --  “You kinda remind me of ‘Mandark’ from ‘Dexter’s Laboratory’ if he was all grown-up.” What do you guys think? HA haHA! HA haHA haHA!  --  funny
+[2023-02-22 14:56:33,615] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:56:39,774] {logging_mixin.py:109} INFO - 66  --  My husband (M35) thinks I (F32) baby trapped him despite the baby being planned - please help!  --  BestofRedditorUpdates
+[2023-02-22 14:56:41,390] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:56:47,468] {logging_mixin.py:109} INFO - 67  --  My girlfriend calls this lonely man’s food. What do you guys think?  --  CasualUK
+[2023-02-22 14:56:48,376] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:56:54,359] {logging_mixin.py:109} INFO - 68  --  My family still misgenders me even though I think I fully pass 😪  --  lgbt
+[2023-02-22 14:56:55,538] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:57:03,164] {logging_mixin.py:109} INFO - 69  --  Draymond Green on Lebron: "I recently said he’s the greatest face the NBA has ever had. Think about the day and age we live in – cameras, social media – he’s never had a scandal. Never been arrested. Never photo’d drunk. Those things go hand in hand with durability, longevity, consistency."  --  nba
+[2023-02-22 14:57:04,153] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:57:10,384] {logging_mixin.py:109} INFO - 70  --  Local Indian restaurant finally saying what everyone’s thinking  --  funny
+[2023-02-22 14:57:11,355] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:57:17,872] {logging_mixin.py:109} INFO - 71  --  A “cooling off period’ what do they think this is?  --  WhitePeopleTwitter
+[2023-02-22 14:57:19,110] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:57:27,755] {logging_mixin.py:109} INFO - 72  --  [Cohn] Brandon Aiyuk on the Eagles: “I don’t know fully about that defense. They talk about them being a good defense — I’m not sure. I think this Kansas City pass game will expose what we thought we were going to expose before some unfortunate circumstances. They got extremely lucky.”  --  nfl
+[2023-02-22 14:57:29,091] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:57:36,509] {logging_mixin.py:109} INFO - 73  --  What is an american thing but americans think everyone outside of america does it?  --  AskReddit
+[2023-02-22 14:57:38,488] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:57:43,880] {logging_mixin.py:109} INFO - 74  --  I'm thinking of starting a subreddit called BoredScientists or something for these kind of studies..  --  funny
+[2023-02-22 14:57:46,247] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:57:52,813] {logging_mixin.py:109} INFO - 75  --  He thinks he is doing some kind of service to the people, but he is actually putting their lives in danger.  --  facepalm
+[2023-02-22 14:57:54,329] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:58:02,721] {logging_mixin.py:109} INFO - 76  --  [Stoltz] Giannis after scoring 54 pts: "I think I'm going to go to Culvers. I'm gonna get 50 cheeseburgers and try to eat as many as I can. You know why I'm going to Culver's? Because Chick-fil-A did not give me no free meals. I know Culver's will give me free meals. I trust Culver's."  --  nba
+[2023-02-22 14:58:03,656] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:58:09,567] {logging_mixin.py:109} INFO - 77  --  We adopted Klaus today! He has 1 eye, half of each ear, and a partially amputated tail, but we think he’s a perfect handsome baby.  --  cats
+[2023-02-22 14:58:11,437] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:58:18,054] {logging_mixin.py:109} INFO - 78  --  how do they even think of this  --  terriblefacebookmemes
+[2023-02-22 14:58:21,086] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:58:27,095] {logging_mixin.py:109} INFO - 79  --  What do you guys think? (Context: Hogwarts Legacy release)  --  WhitePeopleTwitter
+[2023-02-22 14:58:28,922] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:58:34,777] {logging_mixin.py:109} INFO - 80  --  [CBS Sports Golazo] Carragher: Virgil van Dijk said I wouldn't get in that back four a few months ago. I think I'd take his place at the moment  --  soccer
+[2023-02-22 14:58:37,294] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:58:44,673] {logging_mixin.py:109} INFO - 81  --  Bought this thinking it would be an equivalent version of condensed milk in my country. What cook I do with it?  --  CasualUK
+[2023-02-22 14:58:47,093] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:58:52,475] {logging_mixin.py:109} INFO - 82  --  Plica fimbriata doesn't hurt or harm a person but personally I think it fits here.  --  oddlyterrifying
+[2023-02-22 14:58:55,145] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:59:01,228] {logging_mixin.py:109} INFO - 83  --  I think this bs belongs here  --  antiwork
+[2023-02-22 14:59:04,295] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:59:10,591] {logging_mixin.py:109} INFO - 84  --  Late diagnosis folks, what is one behaviour from your childhood that makes you wonder "Why did nobody ever think to get me evaluated?"  --  ADHD
+[2023-02-22 14:59:13,569] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:59:18,831] {logging_mixin.py:109} INFO - 85  --  Even tho I am an idiot I don't think in this case I am.  --  IdiotsInCars
+[2023-02-22 14:59:21,827] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:59:27,979] {logging_mixin.py:109} INFO - 86  --  Think this guy doesn’t like Joe Biden?  --  WhitePeopleTwitter
+[2023-02-22 14:59:30,118] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:59:37,402] {logging_mixin.py:109} INFO - 87  --  Late diagnosis folks, what is one behaviour from your childhood that makes you wonder "Why did nobody ever think to get me evaluated?"  --  ADHD
+[2023-02-22 14:59:39,214] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:59:44,346] {logging_mixin.py:109} INFO - 88  --  Do you think it hurt  --  perfectlycutscreams
+[2023-02-22 14:59:47,266] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 14:59:54,134] {logging_mixin.py:109} INFO - 89  --  When you see the letters, FTP, what is the first thing you think of?  --  AskReddit
+[2023-02-22 14:59:55,910] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:00:04,074] {logging_mixin.py:109} INFO - 90  --  Who do you think is Batman's most dangerous villain of all?  --  comicbooks
+[2023-02-22 15:00:05,144] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:00:14,007] {logging_mixin.py:109} INFO - 91  --  in what world did cersei think she was going to win  --  FreeFolkSimulator
+[2023-02-22 15:00:16,721] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:00:27,827] {logging_mixin.py:109} INFO - 92  --  Apparently a lot men think that all women are going after a small percentage of men and I don't know how that even works  --  TwoXChromosomes
+[2023-02-22 15:00:29,056] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:00:40,887] {logging_mixin.py:109} INFO - 93  --  what do you guys think will be the asbestos of the 21st century?  --  ask
+[2023-02-22 15:00:43,441] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:00:52,579] {logging_mixin.py:109} INFO - 94  --  I think she didn't connect a couple of dots...  --  SelfAwarewolves
+[2023-02-22 15:00:54,609] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:01:05,713] {logging_mixin.py:109} INFO - 95  --  How do you think this showdown will go down in November? It's Dune vs Marvels.  --  boxoffice
+[2023-02-22 15:01:07,017] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:01:18,933] {logging_mixin.py:109} INFO - 96  --  Cow thinks he's a showjumping horse  --  aww
+[2023-02-22 15:01:20,202] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:01:32,040] {logging_mixin.py:109} INFO - 97  --  [Golliver] Kyrie Irving: “I don’t know who created the term ‘load management.’ I think it’s dehumanized some of us in terms of the way we prepare ourselves day to day.”  --  nba
+[2023-02-22 15:01:33,193] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:01:44,481] {logging_mixin.py:109} INFO - 98  --  You choose. I know I have and it’s not who you think  --  clevercomebacks
+[2023-02-22 15:01:45,510] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:01:58,381] {logging_mixin.py:109} INFO - 99  --  [Abdul-Jabbar] What I Think About LeBron Breaking My NBA Scoring Record  --  nba
+[2023-02-22 15:01:59,603] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:02:09,740] {logging_mixin.py:109} INFO - 100  --  I think B.  --  FunnyAnimals
+[2023-02-22 15:02:11,396] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:02:22,995] {logging_mixin.py:109} INFO - 101  --  One year and many patches later, what do YOU think is now the most OP weapon (or spell) in the game?  --  Eldenring
+[2023-02-22 15:02:24,773] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:02:34,864] {logging_mixin.py:109} INFO - 102  --  If you think about it hard enough, both styles give off gay vibes  --  tumblr
+[2023-02-22 15:02:38,032] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:02:47,776] {logging_mixin.py:109} INFO - 103  --  Mom, I’ve lost 60 pounds and no one has told me I look good. I think I look good.  --  MomForAMinute
+[2023-02-22 15:02:49,196] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:03:00,198] {logging_mixin.py:109} INFO - 104  --  Can you think of something more dystopian than a communal sperm extractor?  --  TerrifyingAsFuck
+[2023-02-22 15:03:01,487] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:03:12,606] {logging_mixin.py:109} INFO - 105  --  This guy thinks unvaccinated sperm will be more precious than gold in the next couple years.  --  cringepics
+[2023-02-22 15:03:14,062] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:03:24,558] {logging_mixin.py:109} INFO - 106  --  Husky: Excuse me, what do you think you are doing?  --  FunnyAnimals
+[2023-02-22 15:03:26,206] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:03:37,402] {logging_mixin.py:109} INFO - 107  --  BREAKING: Rumors emerge that Kevin McCarthy will be STOPPING UKRAINE AID from multiple spending bills. What do you think about this?  --  conspiracy
+[2023-02-22 15:03:39,583] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:03:50,034] {logging_mixin.py:109} INFO - 108  --  AITA for “gaslighting” my girlfriend into thinking she was alive?  --  AmItheAsshole
+[2023-02-22 15:03:54,643] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:04:01,970] {logging_mixin.py:109} INFO - 109  --  My girlfriend absolutely hates when I wear this shirt and wants me to throw it out. What do you all think?  --  seinfeld
+[2023-02-22 15:04:03,525] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:04:14,608] {logging_mixin.py:109} INFO - 110  --  “Influencer” thinks it is his place to publicly make fun of man trying to have a Valentine’s Day Date with his wife for not having enough money  --  ImTheMainCharacter
+[2023-02-22 15:04:16,241] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:04:27,368] {logging_mixin.py:109} INFO - 111  --  next time you think Ork weapon design is unrealistic, just remember there are currently Ukrainians sellotaping bullets to RPG rounds for extra dakka  --  Grimdank
+[2023-02-22 15:04:29,573] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:04:41,147] {logging_mixin.py:109} INFO - 112  --  As a non US citizen, I'm not accustomed to bring your parent to school days. I only think of the kids who have difficult family circumstances on these occasions. I'm glad this kids mum is doing something so he doesn't feel as left out.  --  wholesomememes
+[2023-02-22 15:04:45,450] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:04:54,926] {logging_mixin.py:109} INFO - 113  --  Gen Z is re-thinking college and career plans in post-Roe America: ‘I want to leave the country’  --  politics
+[2023-02-22 15:05:01,655] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:05:16,905] {logging_mixin.py:109} INFO - 114  --  I think I'm officially too old to be on the internet now  --  AdviceAnimals
+[2023-02-22 15:05:18,312] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:05:25,219] {logging_mixin.py:109} INFO - 115  --  I think my neighbor may need a new flag  --  funny
+[2023-02-22 15:05:32,038] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:05:42,995] {logging_mixin.py:109} INFO - 116  --  Do you think cocaine is getting out of hand in this country?  --  AskUK
+[2023-02-22 15:05:47,304] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:05:55,101] {logging_mixin.py:109} INFO - 117  --  I don't think that's Sun Tzu in the picture  --  terriblefacebookmemes
+[2023-02-22 15:05:56,423] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:06:08,582] {logging_mixin.py:109} INFO - 118  --  I think the most patriotic part of the entire Super Bowl was Rihanna’s halftime performance  --  Jokes
+[2023-02-22 15:06:18,637] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:06:35,776] {logging_mixin.py:109} INFO - 119  --  I think you should at least try to use chopsticks every time you go to an Asian restaurant.  --  unpopularopinion
+[2023-02-22 15:06:38,236] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:06:44,638] {logging_mixin.py:109} INFO - 120  --  It just makes think sometimes, why it works one way but not the other.  --  dndmemes
+[2023-02-22 15:06:53,020] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:06:58,901] {logging_mixin.py:109} INFO - 121  --  Do you think I'm more masculine or feminine?  --  teenagers
+[2023-02-22 15:07:07,579] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:07:14,646] {logging_mixin.py:109} INFO - 122  --  Think video games today are expensive? Look at 1996.  --  gaming
+[2023-02-22 15:07:16,973] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:07:23,215] {logging_mixin.py:109} INFO - 123  --  Timeline of ow2's most hated tanks, who do you think will be next?  --  Overwatch
+[2023-02-22 15:07:30,504] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:07:40,885] {logging_mixin.py:109} INFO - 124  --  India blocks YouTube videos, tweets sharing BBC documentary on PM Modi — ‘We think this is a propaganda piece designed to push a particular discredited narrative’ (21 Jan. 2023)  --  technology
+[2023-02-22 15:07:46,875] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:07:53,815] {logging_mixin.py:109} INFO - 125  --  Builders left me with no toilet for the night. Think I could get away with shitting directly into the pipe?  --  CasualUK
+[2023-02-22 15:08:01,793] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:08:13,058] {logging_mixin.py:109} INFO - 126  --  What player do you think is sneaky garbage but nobody notices?  --  nba
+[2023-02-22 15:08:14,377] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:08:24,707] {logging_mixin.py:109} INFO - 127  --  Thoughts on wearing hair out like this? I kinda like it, but wonder if others think it looks raggedy or unkempt ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯  --  curlyhair
+[2023-02-22 15:08:27,786] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:08:35,413] {logging_mixin.py:109} INFO - 128  --  I think Elon Musk fully transitioned to the MAGA dark side🤦🏻‍♂️  --  WhitePeopleTwitter
+[2023-02-22 15:08:45,349] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:09:03,174] {logging_mixin.py:109} INFO - 129  --  Do you think Marvel Studios has done a good job introducing new characters to the MCU?  --  marvelstudios
+[2023-02-22 15:09:08,725] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:09:13,357] {logging_mixin.py:109} INFO - 130  --  Happened to pass by a donut truck today…I think I made the right choice  --  FoodPorn
+[2023-02-22 15:09:23,751] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:09:30,471] {logging_mixin.py:109} INFO - 131  --  it doesn't get easier, but you do get better with time. At least I think we're better at it now  --  dndmemes
+[2023-02-22 15:09:36,676] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:09:42,331] {logging_mixin.py:109} INFO - 132  --  What was he thinking  --  Whatcouldgowrong
+[2023-02-22 15:09:51,478] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:09:59,156] {logging_mixin.py:109} INFO - 133  --  I think the most patriotic part of the entire Super Bowl was Rihanna’s halftime performance  --  Jokes
+[2023-02-22 15:10:04,367] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:10:11,368] {logging_mixin.py:109} INFO - 134  --  I think you should at least try to use chopsticks every time you go to an Asian restaurant.  --  unpopularopinion
+[2023-02-22 15:10:17,491] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:10:25,074] {logging_mixin.py:109} INFO - 135  --  It just makes think sometimes, why it works one way but not the other.  --  dndmemes
+[2023-02-22 15:10:27,082] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:10:43,115] {logging_mixin.py:109} INFO - 136  --  Do you think I'm more masculine or feminine?  --  teenagers
+[2023-02-22 15:10:44,665] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:10:56,032] {logging_mixin.py:109} INFO - 137  --  Timeline of ow2's most hated tanks, who do you think will be next?  --  Overwatch
+[2023-02-22 15:10:57,987] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:11:13,450] {logging_mixin.py:109} INFO - 138  --  India blocks YouTube videos, tweets sharing BBC documentary on PM Modi — ‘We think this is a propaganda piece designed to push a particular discredited narrative’ (21 Jan. 2023)  --  technology
+[2023-02-22 15:11:14,914] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:11:27,356] {logging_mixin.py:109} INFO - 139  --  You think you're donating to charity? LOL We're told by the company to dump all the money customers put into these things into our drawer at the end of each shift.  --  antiwork
+[2023-02-22 15:11:45,552] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=thinkful
+[2023-02-22 15:11:51,933] {logging_mixin.py:109} INFO - 140  --  What are some terrible films that are so visually stunning they trick people into thinking they are great films?  --  movies
+[2023-02-22 15:12:15,603] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/reddit_ingestion_dag.py", line 582, in scrape_test
+    scrape_keyword_from_reddit(competitors) # starlights waz
+  File "/opt/airflow/dags/scraper.py", line 137, in scrape_keyword_from_reddit
+    result = search_keywords_in_reddit(cmp.lower())
+  File "/opt/airflow/dags/scraper.py", line 96, in search_keywords_in_reddit
+    cross.click()
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 403, in _execute
+    return self._parent.execute(command, params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=110.0.5481.100)
+Stacktrace:
+#0 0x55f0aa04bd93 <unknown>
+#1 0x55f0a9e1a15d <unknown>
+#2 0x55f0a9e043aa <unknown>
+#3 0x55f0a9e02ee2 <unknown>
+#4 0x55f0a9e03682 <unknown>
+#5 0x55f0a9e10b4f <unknown>
+#6 0x55f0a9e117a2 <unknown>
+#7 0x55f0a9e21dd1 <unknown>
+#8 0x55f0a9e92787 <unknown>
+#9 0x55f0a9e7a353 <unknown>
+#10 0x55f0a9e49e40 <unknown>
+#11 0x55f0a9e4b038 <unknown>
+#12 0x55f0aa09f8be <unknown>
+#13 0x55f0aa0a38f0 <unknown>
+#14 0x55f0aa083f90 <unknown>
+#15 0x55f0aa0a4b7d <unknown>
+#16 0x55f0aa075578 <unknown>
+#17 0x55f0aa0c9348 <unknown>
+#18 0x55f0aa0c94d6 <unknown>
+#19 0x55f0aa0e3341 <unknown>
+#20 0x7f62e6cadfa3 start_thread
+
+[2023-02-22 15:12:15,966] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=tutorial, task_id=scraping, execution_date=20230222T140126, start_date=20230222T144038, end_date=20230222T151215
+[2023-02-22 15:12:16,116] {standard_task_runner.py:92} ERROR - Failed to execute job 46 for task scraping
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/reddit_ingestion_dag.py", line 582, in scrape_test
+    scrape_keyword_from_reddit(competitors) # starlights waz
+  File "/opt/airflow/dags/scraper.py", line 137, in scrape_keyword_from_reddit
+    result = search_keywords_in_reddit(cmp.lower())
+  File "/opt/airflow/dags/scraper.py", line 96, in search_keywords_in_reddit
+    cross.click()
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 403, in _execute
+    return self._parent.execute(command, params)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=110.0.5481.100)
+Stacktrace:
+#0 0x55f0aa04bd93 <unknown>
+#1 0x55f0a9e1a15d <unknown>
+#2 0x55f0a9e043aa <unknown>
+#3 0x55f0a9e02ee2 <unknown>
+#4 0x55f0a9e03682 <unknown>
+#5 0x55f0a9e10b4f <unknown>
+#6 0x55f0a9e117a2 <unknown>
+#7 0x55f0a9e21dd1 <unknown>
+#8 0x55f0a9e92787 <unknown>
+#9 0x55f0a9e7a353 <unknown>
+#10 0x55f0a9e49e40 <unknown>
+#11 0x55f0a9e4b038 <unknown>
+#12 0x55f0aa09f8be <unknown>
+#13 0x55f0aa0a38f0 <unknown>
+#14 0x55f0aa083f90 <unknown>
+#15 0x55f0aa0a4b7d <unknown>
+#16 0x55f0aa075578 <unknown>
+#17 0x55f0aa0c9348 <unknown>
+#18 0x55f0aa0c94d6 <unknown>
+#19 0x55f0aa0e3341 <unknown>
+#20 0x7f62e6cadfa3 start_thread
+
+[2023-02-22 15:12:16,244] {local_task_job.py:154} INFO - Task exited with return code 1
+[2023-02-22 15:12:16,356] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

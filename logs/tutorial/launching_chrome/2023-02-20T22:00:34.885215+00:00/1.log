@@ -1,0 +1,27 @@
+[2023-02-20 22:00:39,495] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.launching_chrome manual__2023-02-20T22:00:34.885215+00:00 [queued]>
+[2023-02-20 22:00:39,519] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.launching_chrome manual__2023-02-20T22:00:34.885215+00:00 [queued]>
+[2023-02-20 22:00:39,521] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20 22:00:39,522] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2023-02-20 22:00:39,524] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20 22:00:39,553] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): launching_chrome> on 2023-02-20 22:00:34.885215+00:00
+[2023-02-20 22:00:39,565] {standard_task_runner.py:52} INFO - Started process 1519 to run task
+[2023-02-20 22:00:39,577] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'launching_chrome', 'manual__2023-02-20T22:00:34.885215+00:00', '--job-id', '144', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmpcsa0tvb2', '--error-file', '/tmp/tmpeuvwsslx']
+[2023-02-20 22:00:39,582] {standard_task_runner.py:77} INFO - Job 144: Subtask launching_chrome
+[2023-02-20 22:00:39,713] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.launching_chrome manual__2023-02-20T22:00:34.885215+00:00 [running]> on host 1b319cb4c67b
+[2023-02-20 22:00:39,862] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=launching_chrome
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T22:00:34.885215+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-20T22:00:34.885215+00:00
+[2023-02-20 22:00:39,867] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-20 22:00:40,357] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-20 22:00:40,717] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20 22:01:07,699] {logging_mixin.py:109} INFO - <selenium.webdriver.remote.webelement.WebElement (session="0af6593be8a2d82ceb2c3dd4aec512b0", element="7fabe8f0-b188-4fbf-9da7-298b5e423bf8")>
+[2023-02-20 22:01:07,766] {python.py:175} INFO - Done. Returned value was: None
+[2023-02-20 22:01:07,793] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=launching_chrome, execution_date=20230220T220034, start_date=20230220T220039, end_date=20230220T220107
+[2023-02-20 22:01:07,840] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-02-20 22:01:07,933] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

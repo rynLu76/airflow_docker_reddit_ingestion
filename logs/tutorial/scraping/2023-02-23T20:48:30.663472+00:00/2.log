@@ -1,0 +1,64 @@
+[2023-02-24 23:58:46,283] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping scheduled__2023-02-23T20:48:30.663472+00:00 [queued]>
+[2023-02-24 23:58:46,305] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping scheduled__2023-02-23T20:48:30.663472+00:00 [queued]>
+[2023-02-24 23:58:46,306] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-24 23:58:46,308] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2023-02-24 23:58:46,318] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-24 23:58:46,350] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): scraping> on 2023-02-23 20:48:30.663472+00:00
+[2023-02-24 23:58:46,359] {standard_task_runner.py:52} INFO - Started process 81730 to run task
+[2023-02-24 23:58:46,368] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'scraping', 'scheduled__2023-02-23T20:48:30.663472+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmp8fprqzcd', '--error-file', '/tmp/tmpszar9vgc']
+[2023-02-24 23:58:46,375] {standard_task_runner.py:77} INFO - Job 57: Subtask scraping
+[2023-02-24 23:58:46,553] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.scraping scheduled__2023-02-23T20:48:30.663472+00:00 [running]> on host 541881d0ad34
+[2023-02-24 23:58:46,751] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=scraping
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-23T20:48:30.663472+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-23T20:48:30.663472+00:00
+[2023-02-24 23:58:48,036] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-24 23:58:51,680] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-24 23:58:55,326] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_linux64.zip
+[2023-02-24 23:58:56,806] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   0%|          | 0.00/7.05M [00:00<?, ?B/s]
+[2023-02-24 23:58:56,940] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   0%|          | 24.0k/7.05M [00:00<00:35, 208kB/s]
+[2023-02-24 23:58:57,356] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   1%|          | 48.0k/7.05M [00:00<01:27, 84.1kB/s]
+[2023-02-24 23:58:57,554] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   1%|          | 64.0k/7.05M [00:00<01:28, 83.0kB/s]
+[2023-02-24 23:58:57,894] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   1%|1         | 80.0k/7.05M [00:01<01:49, 66.7kB/s]
+[2023-02-24 23:58:58,209] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   1%|1         | 88.0k/7.05M [00:01<02:02, 59.4kB/s]
+[2023-02-24 23:58:58,218] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   1%|1         | 96.0k/7.05M [00:01<02:00, 60.7kB/s]
+[2023-02-24 23:58:58,485] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   2%|1         | 128k/7.05M [00:01<01:25, 84.6kB/s] 
+[2023-02-24 23:58:58,681] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   2%|2         | 176k/7.05M [00:01<00:54, 132kB/s] 
+[2023-02-24 23:58:58,988] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   3%|2         | 192k/7.05M [00:02<01:11, 101kB/s]
+[2023-02-24 23:58:59,398] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   3%|2         | 216k/7.05M [00:02<01:25, 83.6kB/s]
+[2023-02-24 23:58:59,613] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   3%|3         | 232k/7.05M [00:02<01:27, 81.8kB/s]
+[2023-02-24 23:59:00,014] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   3%|3         | 248k/7.05M [00:03<01:48, 65.7kB/s]
+[2023-02-24 23:59:00,320] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   4%|3         | 256k/7.05M [00:03<02:11, 54.1kB/s]
+[2023-02-24 23:59:00,626] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   4%|3         | 280k/7.05M [00:03<01:54, 62.0kB/s]
+[2023-02-24 23:59:00,834] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   4%|4         | 296k/7.05M [00:04<01:47, 65.8kB/s]
+[2023-02-24 23:59:01,140] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   4%|4         | 320k/7.05M [00:04<01:40, 70.5kB/s]
+[2023-02-24 23:59:01,350] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   5%|4         | 344k/7.05M [00:04<01:26, 81.5kB/s]
+[2023-02-24 23:59:01,546] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   5%|5         | 368k/7.05M [00:04<01:16, 92.2kB/s]
+[2023-02-24 23:59:01,857] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   5%|5         | 392k/7.05M [00:05<01:19, 87.6kB/s]
+[2023-02-24 23:59:02,167] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   6%|5         | 416k/7.05M [00:05<01:22, 84.7kB/s]
+[2023-02-24 23:59:02,674] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   6%|5         | 432k/7.05M [00:05<01:52, 61.7kB/s]
+[2023-02-24 23:59:02,985] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   6%|6         | 440k/7.05M [00:06<02:13, 51.9kB/s]
+[2023-02-24 23:59:03,093] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   6%|6         | 448k/7.05M [00:06<02:06, 54.9kB/s]
+[2023-02-24 23:59:03,602] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   6%|6         | 464k/7.05M [00:06<02:34, 44.7kB/s]
+[2023-02-24 23:59:04,119] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   7%|6         | 472k/7.05M [00:07<03:27, 33.3kB/s]
+[2023-02-24 23:59:05,654] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   7%|6         | 480k/7.05M [00:08<07:17, 15.8kB/s]
+[2023-02-24 23:59:06,366] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   7%|6         | 488k/7.05M [00:09<07:54, 14.5kB/s]
+[2023-02-24 23:59:07,696] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   7%|6         | 496k/7.05M [00:10<10:34, 10.9kB/s]
+[2023-02-24 23:59:07,904] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   7%|6         | 504k/7.05M [00:11<08:33, 13.4kB/s]
+[2023-02-24 23:59:08,106] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   7%|7         | 512k/7.05M [00:11<06:59, 16.4kB/s]
+[2023-02-24 23:59:08,332] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   7%|7         | 520k/7.05M [00:11<05:53, 19.4kB/s]
+[2023-02-24 23:59:08,434] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   8%|7         | 544k/7.05M [00:11<02:55, 38.9kB/s]
+[2023-02-24 23:59:08,636] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   8%|7         | 560k/7.05M [00:11<02:24, 47.3kB/s]
+[2023-02-25 00:04:01,993] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   8%|7         | 560k/7.05M [05:05<02:24, 47.3kB/s]
+[2023-02-25 00:04:08,677] {local_task_job.py:212} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2023-02-25 00:04:08,686] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 81730. PIDs of all processes in the group: [81730]
+[2023-02-25 00:04:08,695] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 81730
+[2023-02-25 00:04:08,699] {taskinstance.py:1408} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-02-25 00:04:08,778] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   8%|7         | 560k/7.05M [05:11<1:01:51, 1.84kB/s]
+[2023-02-25 00:04:08,780] {logging_mixin.py:109} WARNING - 
+[2023-02-25 00:04:08,864] {process_utils.py:70} INFO - Process psutil.Process(pid=81730, status='terminated', exitcode=0, started='23:58:45') (81730) terminated with exit code 0

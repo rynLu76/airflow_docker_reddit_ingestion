@@ -1,0 +1,24 @@
+[2023-02-20 22:03:48,028] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.say_id manual__2023-02-20T22:03:46.124340+00:00 [queued]>
+[2023-02-20 22:03:48,054] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.say_id manual__2023-02-20T22:03:46.124340+00:00 [queued]>
+[2023-02-20 22:03:48,055] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20 22:03:48,058] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2023-02-20 22:03:48,060] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20 22:03:48,089] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): say_id> on 2023-02-20 22:03:46.124340+00:00
+[2023-02-20 22:03:48,102] {standard_task_runner.py:52} INFO - Started process 1749 to run task
+[2023-02-20 22:03:48,115] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'say_id', 'manual__2023-02-20T22:03:46.124340+00:00', '--job-id', '145', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmp9hepttn3', '--error-file', '/tmp/tmpi1v6jy1h']
+[2023-02-20 22:03:48,117] {standard_task_runner.py:77} INFO - Job 145: Subtask say_id
+[2023-02-20 22:03:48,281] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.say_id manual__2023-02-20T22:03:46.124340+00:00 [running]> on host 1b319cb4c67b
+[2023-02-20 22:03:48,396] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=say_id
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T22:03:46.124340+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-20T22:03:46.124340+00:00
+[2023-02-20 22:03:48,401] {logging_mixin.py:109} INFO - Hi
+[2023-02-20 22:03:48,402] {python.py:175} INFO - Done. Returned value was: None
+[2023-02-20 22:03:48,428] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=say_id, execution_date=20230220T220346, start_date=20230220T220348, end_date=20230220T220348
+[2023-02-20 22:03:48,495] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-02-20 22:03:48,568] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

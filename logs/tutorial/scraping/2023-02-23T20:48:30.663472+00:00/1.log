@@ -1,0 +1,15 @@
+[2023-02-24 21:46:17,964] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping scheduled__2023-02-23T20:48:30.663472+00:00 [queued]>
+[2023-02-24 21:46:18,046] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping scheduled__2023-02-23T20:48:30.663472+00:00 [queued]>
+[2023-02-24 21:46:18,047] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-24 21:46:18,051] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2023-02-24 21:46:18,055] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-24 21:46:18,117] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): scraping> on 2023-02-23 20:48:30.663472+00:00
+[2023-02-24 21:46:18,142] {standard_task_runner.py:52} INFO - Started process 81698 to run task
+[2023-02-24 21:46:18,200] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'scraping', 'scheduled__2023-02-23T20:48:30.663472+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmpzyc75cd6', '--error-file', '/tmp/tmpeie2v7pt']
+[2023-02-24 21:46:18,208] {standard_task_runner.py:77} INFO - Job 56: Subtask scraping
+[2023-02-24 23:04:47,821] {local_task_job.py:212} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2023-02-24 23:04:48,064] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 81698. PIDs of all processes in the group: [81698]
+[2023-02-24 23:04:48,076] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 81698
+[2023-02-24 23:04:48,357] {process_utils.py:70} INFO - Process psutil.Process(pid=81698, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='21:46:17') (81698) terminated with exit code Negsignal.SIGTERM

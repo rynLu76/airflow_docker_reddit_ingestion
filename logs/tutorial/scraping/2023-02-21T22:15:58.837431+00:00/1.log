@@ -1,0 +1,72 @@
+[2023-02-21 22:16:03,008] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-21T22:15:58.837431+00:00 [queued]>
+[2023-02-21 22:16:03,037] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-21T22:15:58.837431+00:00 [queued]>
+[2023-02-21 22:16:03,050] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21 22:16:03,052] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2023-02-21 22:16:03,055] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21 22:16:03,100] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): scraping> on 2023-02-21 22:15:58.837431+00:00
+[2023-02-21 22:16:03,115] {standard_task_runner.py:52} INFO - Started process 1128 to run task
+[2023-02-21 22:16:03,126] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'scraping', 'manual__2023-02-21T22:15:58.837431+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmpkpm8wnab', '--error-file', '/tmp/tmp7uqwgqfl']
+[2023-02-21 22:16:03,131] {standard_task_runner.py:77} INFO - Job 32: Subtask scraping
+[2023-02-21 22:16:03,423] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.scraping manual__2023-02-21T22:15:58.837431+00:00 [running]> on host 541881d0ad34
+[2023-02-21 22:16:03,488] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=scraping
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-21T22:15:58.837431+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-21T22:15:58.837431+00:00
+[2023-02-21 22:16:03,493] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-21 22:16:03,637] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-21 22:16:03,892] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-21 22:16:21,390] {logging_mixin.py:109} INFO - 1  --  Data Engineering bootcamps - DataStack Academy vs WeCloudData  --  dataengineering
+[2023-02-21 22:16:24,002] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:16:26,730] {logging_mixin.py:109} INFO - 2  --  Recently terminated Data Engineer with 5 years of experience, looking for critiques before sending out loads of applications  --  resumes
+[2023-02-21 22:16:29,438] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:16:32,042] {logging_mixin.py:109} INFO - 3  --  Best DE Bootcamp based on my experience and objectives?  --  dataengineering
+[2023-02-21 22:16:34,644] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:16:37,640] {logging_mixin.py:109} INFO - 4  --  Updated Data Engineer resume, please critique  --  resumes
+[2023-02-21 22:16:38,003] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:16:40,552] {logging_mixin.py:109} INFO - 5  --  Career Shifter - Bootcamp Opinions  --  dataengineering
+[2023-02-21 22:16:42,605] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:16:45,048] {logging_mixin.py:109} INFO - 6  --  Looking for help picking a Data Sci bootcamp  --  learndatascience
+[2023-02-21 22:16:46,297] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:16:49,726] {logging_mixin.py:109} INFO - 7  --  Tech Transition: Please comment/critic my transition plan.  --  ITCareerQuestions
+[2023-02-21 22:16:51,184] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:16:54,730] {logging_mixin.py:109} INFO - 8  --  Looking for help picking a Data Sci bootcamp  --  learnprogramming
+[2023-02-21 22:16:55,539] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:16:57,736] {logging_mixin.py:109} INFO - 9  --  Transition into Tech  --  techjobs
+[2023-02-21 22:16:58,114] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:01,446] {logging_mixin.py:109} INFO - 10  --  What is the data science interview process like in Canada?  --  cscareerquestionsCAD
+[2023-02-21 22:17:03,068] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:05,640] {logging_mixin.py:109} INFO - 11  --  Opinion on DE Bootcamp (e.g. WeCloudData)  --  dataengineering
+[2023-02-21 22:17:06,439] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:09,027] {logging_mixin.py:109} INFO - 12  --  Bootcamp…  --  dataengineering
+[2023-02-21 22:17:10,403] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:12,799] {logging_mixin.py:109} INFO - 13  --  Need advice weather data engineering program is a good idea for diversifying technical skills  --  dataengineering
+[2023-02-21 22:17:13,553] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:17,267] {logging_mixin.py:109} INFO - 14  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  askTO
+[2023-02-21 22:17:18,337] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:21,846] {logging_mixin.py:109} INFO - 15  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  learnprogramming
+[2023-02-21 22:17:23,018] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:25,719] {logging_mixin.py:109} INFO - 16  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  learnpython
+[2023-02-21 22:17:26,698] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:30,234] {logging_mixin.py:109} INFO - 17  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  careeradvice
+[2023-02-21 22:17:31,691] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:36,031] {logging_mixin.py:109} INFO - 18  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  codingbootcamp
+[2023-02-21 22:17:36,840] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:40,812] {logging_mixin.py:109} INFO - 19  --  What's a good bootcamp to start my data engineering career?  --  dataengineering
+[2023-02-21 22:17:42,400] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:45,744] {logging_mixin.py:109} INFO - 20  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  PythonJobs
+[2023-02-21 22:17:46,934] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:49,392] {logging_mixin.py:109} INFO - 21  --  Views on data science bootcamp?  --  dataanalysis
+[2023-02-21 22:17:51,004] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:53,392] {logging_mixin.py:109} INFO - 22  --  Big Data and education  --  BigDataJobs
+[2023-02-21 22:17:54,906] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-21 22:17:55,432] {logging_mixin.py:109} INFO - Reached to the end, no more post!
+[2023-02-21 22:17:55,578] {logging_mixin.py:109} INFO -  -------------------- weclouddata --------------------
+[2023-02-21 22:17:55,674] {python.py:175} INFO - Done. Returned value was: None
+[2023-02-21 22:17:55,716] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=scraping, execution_date=20230221T221558, start_date=20230221T221603, end_date=20230221T221755
+[2023-02-21 22:17:55,806] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-02-21 22:17:55,871] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

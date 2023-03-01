@@ -1,0 +1,92 @@
+[2023-02-25 00:04:03,276] {processor.py:163} INFO - Started process (PID=94295) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:04:03,287] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:04:03,291] {logging_mixin.py:109} INFO - [2023-02-25 00:04:03,291] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:04:06,358] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:04:06,459] {processor.py:608} INFO - Executed failure callback for <TaskInstance: tutorial.scraping scheduled__2023-02-23T20:48:30.663472+00:00 [failed]> in state failed
+[2023-02-25 00:04:06,485] {logging_mixin.py:109} INFO - [2023-02-25 00:04:06,485] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:04:06,522] {logging_mixin.py:109} INFO - [2023-02-25 00:04:06,521] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:04:06,553] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 3.290 seconds
+[2023-02-25 00:53:16,332] {processor.py:163} INFO - Started process (PID=94309) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:53:16,347] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:53:16,353] {logging_mixin.py:109} INFO - [2023-02-25 00:53:16,353] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:53:17,985] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:53:18,004] {logging_mixin.py:109} INFO - [2023-02-25 00:53:18,003] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:53:18,037] {logging_mixin.py:109} INFO - [2023-02-25 00:53:18,037] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:53:18,053] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 1.739 seconds
+[2023-02-25 00:53:48,330] {processor.py:163} INFO - Started process (PID=94323) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:53:48,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:53:48,354] {logging_mixin.py:109} INFO - [2023-02-25 00:53:48,353] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:53:51,423] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:53:51,457] {logging_mixin.py:109} INFO - [2023-02-25 00:53:51,455] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:53:51,546] {logging_mixin.py:109} INFO - [2023-02-25 00:53:51,546] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:53:51,592] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 3.277 seconds
+[2023-02-25 00:54:21,790] {processor.py:163} INFO - Started process (PID=94346) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:54:21,798] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:54:21,802] {logging_mixin.py:109} INFO - [2023-02-25 00:54:21,802] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:54:23,385] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:54:23,414] {logging_mixin.py:109} INFO - [2023-02-25 00:54:23,413] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:54:23,458] {logging_mixin.py:109} INFO - [2023-02-25 00:54:23,458] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:54:23,504] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 1.725 seconds
+[2023-02-25 00:54:53,792] {processor.py:163} INFO - Started process (PID=94370) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:54:53,797] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:54:53,801] {logging_mixin.py:109} INFO - [2023-02-25 00:54:53,801] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:54:55,224] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:54:55,255] {logging_mixin.py:109} INFO - [2023-02-25 00:54:55,254] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:54:55,318] {logging_mixin.py:109} INFO - [2023-02-25 00:54:55,317] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:54:55,355] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 1.571 seconds
+[2023-02-25 00:55:25,558] {processor.py:163} INFO - Started process (PID=94393) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:55:25,568] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:55:25,573] {logging_mixin.py:109} INFO - [2023-02-25 00:55:25,572] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:55:27,012] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:55:27,065] {logging_mixin.py:109} INFO - [2023-02-25 00:55:27,063] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:55:27,108] {logging_mixin.py:109} INFO - [2023-02-25 00:55:27,108] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:55:27,132] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 1.593 seconds
+[2023-02-25 00:55:57,275] {processor.py:163} INFO - Started process (PID=94417) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:55:57,278] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:55:57,281] {logging_mixin.py:109} INFO - [2023-02-25 00:55:57,280] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:55:58,260] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:55:58,284] {logging_mixin.py:109} INFO - [2023-02-25 00:55:58,283] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:55:58,315] {logging_mixin.py:109} INFO - [2023-02-25 00:55:58,315] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:55:58,346] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 1.079 seconds
+[2023-02-25 00:56:28,483] {processor.py:163} INFO - Started process (PID=94441) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:56:28,486] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:56:28,489] {logging_mixin.py:109} INFO - [2023-02-25 00:56:28,488] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:56:29,448] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:56:29,462] {logging_mixin.py:109} INFO - [2023-02-25 00:56:29,462] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:56:29,483] {logging_mixin.py:109} INFO - [2023-02-25 00:56:29,483] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:56:29,504] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 1.027 seconds
+[2023-02-25 00:56:59,646] {processor.py:163} INFO - Started process (PID=94474) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:56:59,652] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 00:56:59,656] {logging_mixin.py:109} INFO - [2023-02-25 00:56:59,655] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:57:01,647] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 00:57:01,663] {logging_mixin.py:109} INFO - [2023-02-25 00:57:01,663] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 00:57:01,723] {logging_mixin.py:109} INFO - [2023-02-25 00:57:01,723] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 00:57:01,738] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 2.102 seconds
+[2023-02-25 02:41:53,707] {processor.py:163} INFO - Started process (PID=94488) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 02:41:53,727] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 02:41:53,744] {logging_mixin.py:109} INFO - [2023-02-25 02:41:53,739] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 02:41:58,890] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 02:41:58,948] {logging_mixin.py:109} INFO - [2023-02-25 02:41:58,945] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 02:41:59,036] {logging_mixin.py:109} INFO - [2023-02-25 02:41:59,036] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 02:41:59,088] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 5.444 seconds
+[2023-02-25 03:36:09,134] {processor.py:163} INFO - Started process (PID=94511) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 03:36:09,166] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 03:36:09,172] {logging_mixin.py:109} INFO - [2023-02-25 03:36:09,171] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 03:36:11,629] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 03:36:11,687] {logging_mixin.py:109} INFO - [2023-02-25 03:36:11,682] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 03:36:11,749] {logging_mixin.py:109} INFO - [2023-02-25 03:36:11,749] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 03:36:11,789] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 2.700 seconds
+[2023-02-25 08:27:41,570] {processor.py:163} INFO - Started process (PID=94525) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 08:27:41,573] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 08:27:41,577] {logging_mixin.py:109} INFO - [2023-02-25 08:27:41,576] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 08:27:45,588] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 08:27:45,685] {logging_mixin.py:109} INFO - [2023-02-25 08:27:45,682] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 08:27:45,784] {logging_mixin.py:109} INFO - [2023-02-25 08:27:45,783] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 08:27:45,886] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 4.324 seconds
+[2023-02-25 20:46:53,303] {processor.py:163} INFO - Started process (PID=94538) to work on /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 20:46:53,312] {processor.py:642} INFO - Processing file /opt/airflow/dags/reddit_ingestion_dag.py for tasks to queue
+[2023-02-25 20:46:53,321] {logging_mixin.py:109} INFO - [2023-02-25 20:46:53,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 20:46:58,499] {processor.py:654} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/reddit_ingestion_dag.py
+[2023-02-25 20:46:58,560] {logging_mixin.py:109} INFO - [2023-02-25 20:46:58,557] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-02-25 20:46:58,840] {logging_mixin.py:109} INFO - [2023-02-25 20:46:58,840] {dag.py:2935} INFO - Setting next_dagrun for tutorial to 2023-02-24T20:48:30.663472+00:00
+[2023-02-25 20:46:58,926] {processor.py:171} INFO - Processing /opt/airflow/dags/reddit_ingestion_dag.py took 5.643 seconds

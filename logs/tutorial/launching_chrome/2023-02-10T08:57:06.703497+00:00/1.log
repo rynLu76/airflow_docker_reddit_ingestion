@@ -1,0 +1,113 @@
+[2023-02-10 08:57:09,011] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.launching_chrome manual__2023-02-10T08:57:06.703497+00:00 [queued]>
+[2023-02-10 08:57:09,052] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.launching_chrome manual__2023-02-10T08:57:06.703497+00:00 [queued]>
+[2023-02-10 08:57:09,054] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10 08:57:09,057] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2023-02-10 08:57:09,059] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10 08:57:09,140] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): launching_chrome> on 2023-02-10 08:57:06.703497+00:00
+[2023-02-10 08:57:09,150] {standard_task_runner.py:52} INFO - Started process 892 to run task
+[2023-02-10 08:57:09,157] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'launching_chrome', 'manual__2023-02-10T08:57:06.703497+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmpcsoyo4p0', '--error-file', '/tmp/tmpffrwpxfn']
+[2023-02-10 08:57:09,159] {standard_task_runner.py:77} INFO - Job 44: Subtask launching_chrome
+[2023-02-10 08:57:09,264] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.launching_chrome manual__2023-02-10T08:57:06.703497+00:00 [running]> on host b700b67c38c5
+[2023-02-10 08:57:09,373] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=launching_chrome
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-10T08:57:06.703497+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-10T08:57:06.703497+00:00
+[2023-02-10 08:57:09,377] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-10 08:57:09,472] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome None
+[2023-02-10 08:57:09,652] {logger.py:11} INFO - There is no [linux64] chromedriver for browser None in cache
+[2023-02-10 08:57:09,655] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_linux64.zip
+[2023-02-10 08:57:09,763] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   0%|          | 0.00/7.05M [00:00<?, ?B/s]
+[2023-02-10 08:57:09,869] {logging_mixin.py:109} WARNING - [WDM] - Downloading:  26%|##6       | 1.84M/7.05M [00:00<00:00, 18.7MB/s]
+[2023-02-10 08:57:09,969] {logging_mixin.py:109} WARNING - [WDM] - Downloading:  60%|######    | 4.27M/7.05M [00:00<00:00, 22.6MB/s]
+[2023-02-10 08:57:10,025] {logging_mixin.py:109} WARNING - [WDM] - Downloading: 100%|##########| 7.05M/7.05M [00:00<00:00, 28.6MB/s]
+[2023-02-10 08:57:10,029] {logging_mixin.py:109} WARNING - 
+[2023-02-10 08:57:10,157] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/reddit_ingestion_dag.py", line 120, in launch_chrome
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager(path="/usr/local/bin/chromedriver").install()))
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/manager.py", line 31, in _get_driver_path
+    binary_path = self.driver_cache.save_file_to_cache(driver, file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/driver_cache.py", line 45, in save_file_to_cache
+    archive = save_file(file, path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/utils.py", line 38, in save_file
+    os.makedirs(directory, exist_ok=True)
+  File "/usr/local/lib/python3.7/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.7/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.7/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 2 more times]
+  File "/usr/local/lib/python3.7/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/bin/chromedriver'
+[2023-02-10 08:57:10,184] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=tutorial, task_id=launching_chrome, execution_date=20230210T085706, start_date=20230210T085709, end_date=20230210T085710
+[2023-02-10 08:57:10,213] {standard_task_runner.py:92} ERROR - Failed to execute job 44 for task launching_chrome
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/reddit_ingestion_dag.py", line 120, in launch_chrome
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager(path="/usr/local/bin/chromedriver").install()))
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/chrome.py", line 39, in install
+    driver_path = self._get_driver_path(self.driver)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/manager.py", line 31, in _get_driver_path
+    binary_path = self.driver_cache.save_file_to_cache(driver, file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/driver_cache.py", line 45, in save_file_to_cache
+    archive = save_file(file, path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/webdriver_manager/core/utils.py", line 38, in save_file
+    os.makedirs(directory, exist_ok=True)
+  File "/usr/local/lib/python3.7/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.7/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.7/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 2 more times]
+  File "/usr/local/lib/python3.7/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/bin/chromedriver'
+[2023-02-10 08:57:10,266] {local_task_job.py:154} INFO - Task exited with return code 1
+[2023-02-10 08:57:10,323] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

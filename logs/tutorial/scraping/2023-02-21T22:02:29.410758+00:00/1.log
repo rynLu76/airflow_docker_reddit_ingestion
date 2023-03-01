@@ -1,0 +1,36 @@
+[2023-02-21 22:02:32,596] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-21T22:02:29.410758+00:00 [queued]>
+[2023-02-21 22:02:32,613] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-21T22:02:29.410758+00:00 [queued]>
+[2023-02-21 22:02:32,614] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21 22:02:32,615] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2023-02-21 22:02:32,616] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21 22:02:32,633] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): scraping> on 2023-02-21 22:02:29.410758+00:00
+[2023-02-21 22:02:32,640] {standard_task_runner.py:52} INFO - Started process 459 to run task
+[2023-02-21 22:02:32,647] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'scraping', 'manual__2023-02-21T22:02:29.410758+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmpxg6r_os0', '--error-file', '/tmp/tmpbg5r8ee1']
+[2023-02-21 22:02:32,649] {standard_task_runner.py:77} INFO - Job 30: Subtask scraping
+[2023-02-21 22:02:32,744] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.scraping manual__2023-02-21T22:02:29.410758+00:00 [running]> on host 541881d0ad34
+[2023-02-21 22:02:32,988] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=scraping
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-21T22:02:29.410758+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-21T22:02:29.410758+00:00
+[2023-02-21 22:02:32,993] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-21 22:02:33,203] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-21 22:02:33,464] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-21 22:02:50,024] {logging_mixin.py:109} INFO - 1  --  60 random exploration encounters to spice up your session  --  UnearthedArcana
+[2023-02-21 22:02:52,028] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=starlights%20waz
+[2023-02-21 22:03:00,419] {logging_mixin.py:109} INFO - 2  --  New music Friday  --  hiphopheads
+[2023-02-21 22:03:01,110] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=starlights%20waz
+[2023-02-21 22:03:10,656] {logging_mixin.py:109} INFO - 3  --  Luke Skywalker  --  StarWarsEU
+[2023-02-21 22:03:11,094] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=starlights%20waz
+[2023-02-21 22:03:20,780] {logging_mixin.py:109} INFO - 4  --  March 4th  --  NewMusicFridayHeads
+[2023-02-21 22:03:21,243] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=starlights%20waz
+[2023-02-21 22:03:21,769] {logging_mixin.py:109} INFO - Reached to the end, no more post!
+[2023-02-21 22:03:21,901] {logging_mixin.py:109} INFO -  -------------------- starlights waz --------------------
+[2023-02-21 22:03:21,991] {python.py:175} INFO - Done. Returned value was: None
+[2023-02-21 22:03:22,013] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=scraping, execution_date=20230221T220229, start_date=20230221T220232, end_date=20230221T220322
+[2023-02-21 22:03:22,099] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-02-21 22:03:22,313] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

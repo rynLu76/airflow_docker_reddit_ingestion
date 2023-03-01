@@ -1,0 +1,341 @@
+[2023-02-22 01:36:15,586] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-21T22:23:59.900589+00:00 [queued]>
+[2023-02-22 01:36:15,625] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping manual__2023-02-21T22:23:59.900589+00:00 [queued]>
+[2023-02-22 01:36:15,628] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-22 01:36:15,632] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2023-02-22 01:36:15,635] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-22 01:36:17,140] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): scraping> on 2023-02-21 22:23:59.900589+00:00
+[2023-02-22 01:36:17,156] {standard_task_runner.py:52} INFO - Started process 9939 to run task
+[2023-02-22 01:36:17,165] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'scraping', 'manual__2023-02-21T22:23:59.900589+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmp1n589kks', '--error-file', '/tmp/tmphj8l2l9r']
+[2023-02-22 01:36:17,168] {standard_task_runner.py:77} INFO - Job 35: Subtask scraping
+[2023-02-22 01:36:19,401] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.scraping manual__2023-02-21T22:23:59.900589+00:00 [running]> on host 541881d0ad34
+[2023-02-22 01:36:19,510] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=scraping
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-21T22:23:59.900589+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-21T22:23:59.900589+00:00
+[2023-02-22 01:36:19,615] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-22 01:36:19,996] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-22 01:36:20,405] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-22 01:36:40,696] {logging_mixin.py:109} INFO - 1  --  Data Engineering bootcamps - DataStack Academy vs WeCloudData  --  dataengineering
+[2023-02-22 01:36:46,118] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:36:51,179] {logging_mixin.py:109} INFO - 2  --  Best DE Bootcamp based on my experience and objectives?  --  dataengineering
+[2023-02-22 01:36:52,750] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:36:56,540] {logging_mixin.py:109} INFO - 3  --  Recently terminated Data Engineer with 5 years of experience, looking for critiques before sending out loads of applications  --  resumes
+[2023-02-22 01:37:00,597] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:03,625] {logging_mixin.py:109} INFO - 4  --  Updated Data Engineer resume, please critique  --  resumes
+[2023-02-22 01:37:04,330] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:07,968] {logging_mixin.py:109} INFO - 5  --  Career Shifter - Bootcamp Opinions  --  dataengineering
+[2023-02-22 01:37:09,223] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:11,720] {logging_mixin.py:109} INFO - 6  --  Looking for help picking a Data Sci bootcamp  --  learndatascience
+[2023-02-22 01:37:13,456] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:17,821] {logging_mixin.py:109} INFO - 7  --  Tech Transition: Please comment/critic my transition plan.  --  ITCareerQuestions
+[2023-02-22 01:37:19,236] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:23,146] {logging_mixin.py:109} INFO - 8  --  Looking for help picking a Data Sci bootcamp  --  learnprogramming
+[2023-02-22 01:37:24,065] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:26,466] {logging_mixin.py:109} INFO - 9  --  Transition into Tech  --  techjobs
+[2023-02-22 01:37:28,381] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:32,226] {logging_mixin.py:109} INFO - 10  --  What is the data science interview process like in Canada?  --  cscareerquestionsCAD
+[2023-02-22 01:37:33,616] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:37,553] {logging_mixin.py:109} INFO - 11  --  Opinion on DE Bootcamp (e.g. WeCloudData)  --  dataengineering
+[2023-02-22 01:37:39,648] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:42,311] {logging_mixin.py:109} INFO - 12  --  Bootcamp…  --  dataengineering
+[2023-02-22 01:37:44,322] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:47,298] {logging_mixin.py:109} INFO - 13  --  Need advice weather data engineering program is a good idea for diversifying technical skills  --  dataengineering
+[2023-02-22 01:37:47,678] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:51,748] {logging_mixin.py:109} INFO - 14  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  askTO
+[2023-02-22 01:37:53,712] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:37:57,373] {logging_mixin.py:109} INFO - 15  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  learnprogramming
+[2023-02-22 01:37:59,191] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:38:02,805] {logging_mixin.py:109} INFO - 16  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  learnpython
+[2023-02-22 01:38:03,270] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:38:07,415] {logging_mixin.py:109} INFO - 17  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  careeradvice
+[2023-02-22 01:38:08,888] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:38:12,746] {logging_mixin.py:109} INFO - 18  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  codingbootcamp
+[2023-02-22 01:38:13,791] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:38:16,440] {logging_mixin.py:109} INFO - 19  --  What's a good bootcamp to start my data engineering career?  --  dataengineering
+[2023-02-22 01:38:20,400] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:38:25,887] {logging_mixin.py:109} INFO - 20  --  Bootcamp/ Course - SQL + Python + Data Engineering + Statistics in Toronto, Canada  --  PythonJobs
+[2023-02-22 01:38:26,694] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:38:30,462] {logging_mixin.py:109} INFO - 21  --  Views on data science bootcamp?  --  dataanalysis
+[2023-02-22 01:38:31,250] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:38:33,725] {logging_mixin.py:109} INFO - 22  --  Big Data and education  --  BigDataJobs
+[2023-02-22 01:38:35,527] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=weclouddata
+[2023-02-22 01:38:36,085] {logging_mixin.py:109} INFO - Reached to the end, no more post!
+[2023-02-22 01:38:36,190] {logging_mixin.py:109} INFO -  -------------------- WeCloudData --------------------
+[2023-02-22 01:38:36,193] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-22 01:38:36,368] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-22 01:38:36,647] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-22 01:38:54,994] {logging_mixin.py:109} INFO - 1  --  PRACTICUM Bootcamp for software engineering  --  codingbootcamp
+[2023-02-22 01:39:02,281] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:06,549] {logging_mixin.py:109} INFO - 2  --  Considering QA bootcamp from Practicum  --  QualityAssurance
+[2023-02-22 01:39:08,051] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:13,797] {logging_mixin.py:109} INFO - 3  --  How do you list the practicum component on your resume?  --  OMSA
+[2023-02-22 01:39:16,713] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:23,351] {logging_mixin.py:109} INFO - 4  --  Astrology Practicum #12: Feb 14 - Feb 20, 2023  --  astrology
+[2023-02-22 01:39:24,702] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:27,418] {logging_mixin.py:109} INFO - 5  --  Astrology Practicum #11 | February 5 - 12  --  astrology
+[2023-02-22 01:39:29,977] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:34,207] {logging_mixin.py:109} INFO - 6  --  Is it normal to feel this way in practicum (ON)?  --  CanadianTeachers
+[2023-02-22 01:39:37,574] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:42,385] {logging_mixin.py:109} INFO - 7  --  Only Practicum + Simulation Remaining Advice on how to finish  --  OMSA
+[2023-02-22 01:39:43,125] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:45,712] {logging_mixin.py:109} INFO - 8  --  practicum clients are "difficult"  --  slp
+[2023-02-22 01:39:49,276] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:51,978] {logging_mixin.py:109} INFO - 9  --  Practicum in Alchemy. My own recipe of Red Armor Dye according the Witcher thematic  --  witcher
+[2023-02-22 01:39:53,707] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:39:59,409] {logging_mixin.py:109} INFO - 10  --  How much do you all pay for your practicum placements?  --  StudentNurse
+[2023-02-22 01:40:02,308] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:40:06,586] {logging_mixin.py:109} INFO - 11  --  Astrology Practicum #10 | January 21-28  --  astrology
+[2023-02-22 01:40:08,385] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:40:16,743] {logging_mixin.py:109} INFO - 12  --  Finished my first block of practicum and got a raise at my job so I decided to treat myself !  --  Dolls
+[2023-02-22 01:40:17,738] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:40:26,902] {logging_mixin.py:109} INFO - 13  --  Are Practicums Paid? (In Canada if that helps)  --  ClinicalPsychology
+[2023-02-22 01:40:27,480] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:40:37,053] {logging_mixin.py:109} INFO - 14  --  Doing a university practicum is hard work. All that research and pewpew! 😂  --  canadaguns
+[2023-02-22 01:40:37,611] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:40:47,244] {logging_mixin.py:109} INFO - 15  --  Starting Practicum and getting cold feet  --  schoolcounseling
+[2023-02-22 01:40:47,917] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:40:57,659] {logging_mixin.py:109} INFO - 16  --  What actions are being taken regarding the exploitation of Psychology grad program practicums?  --  psychologystudents
+[2023-02-22 01:40:58,355] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:41:07,846] {logging_mixin.py:109} INFO - 17  --  Having trouble finding a practicum site, everyone wants 12 month commitment and my program only runs for 16 weeks  --  therapists
+[2023-02-22 01:41:08,508] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:41:17,979] {logging_mixin.py:109} INFO - 18  --  Anorexic client at practicum not dedicated to eating disorders  --  therapists
+[2023-02-22 01:41:18,545] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:41:28,112] {logging_mixin.py:109} INFO - 19  --  Feeling Discouraged in Graduate Practicum! (med SLP)  --  slp
+[2023-02-22 01:41:28,690] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:41:38,410] {logging_mixin.py:109} INFO - 20  --  Astrology Practicum #9 | January 9-16  --  astrology
+[2023-02-22 01:41:39,373] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:41:48,756] {logging_mixin.py:109} INFO - 21  --  Helpful book for practicum?  --  therapists
+[2023-02-22 01:41:49,514] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:41:59,191] {logging_mixin.py:109} INFO - 22  --  Astro Practicum 8: Dec 20-28  --  astrology
+[2023-02-22 01:41:59,960] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:42:09,313] {logging_mixin.py:109} INFO - 23  --  Apprentice Work Placement/Practicum  --  millwrights
+[2023-02-22 01:42:10,366] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:42:19,452] {logging_mixin.py:109} INFO - 24  --  Starting practicum in two weeks - looking for any helpful tips!  --  therapists
+[2023-02-22 01:42:20,221] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:42:29,629] {logging_mixin.py:109} INFO - 25  --  Officially got my practicum placement.  --  schoolcounseling
+[2023-02-22 01:42:30,352] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:42:39,797] {logging_mixin.py:109} INFO - 26  --  Practicum/Internship Hours  --  schoolcounseling
+[2023-02-22 01:42:40,535] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:42:49,983] {logging_mixin.py:109} INFO - 27  --  Extremely anxious about practicum  --  therapists
+[2023-02-22 01:42:50,735] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:43:00,122] {logging_mixin.py:109} INFO - 28  --  How useful is taking a practicum (20 hr course) for getting hired, vs just a cert?  --  teflteachers
+[2023-02-22 01:43:00,914] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:43:10,233] {logging_mixin.py:109} INFO - 29  --  What is Cyber Security Practicum?  --  OMSCyberSecurity
+[2023-02-22 01:43:10,801] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:43:20,413] {logging_mixin.py:109} INFO - 30  --  Looking for advice as a nursing student on L&D unit for practicum!  --  StudentNurse
+[2023-02-22 01:43:21,152] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:43:30,557] {logging_mixin.py:109} INFO - 31  --  Late Applications for Public Health Practicums  --  UCI
+[2023-02-22 01:43:32,829] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:43:40,718] {logging_mixin.py:109} INFO - 32  --  Does practicum actually only last a month?  --  ADMU
+[2023-02-22 01:43:42,116] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:43:50,872] {logging_mixin.py:109} INFO - 33  --  Are there volunteer opportunities to co-facilitate groups outside of practicum/internship?  --  therapists
+[2023-02-22 01:43:51,580] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:44:01,005] {logging_mixin.py:109} INFO - 34  --  Help! ECE Student about to start 3 week practicum.  --  ECEProfessionals
+[2023-02-22 01:44:01,938] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:44:11,123] {logging_mixin.py:109} INFO - 35  --  Seeking advice for my NICU senior practicum  --  nursing
+[2023-02-22 01:44:11,942] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:44:21,278] {logging_mixin.py:109} INFO - 36  --  GIS Student- Practicum  --  gis
+[2023-02-22 01:44:22,100] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:44:31,398] {logging_mixin.py:109} INFO - 37  --  Seeking advice on dressing “older” for practicums/student teaching?  --  Teachers
+[2023-02-22 01:44:32,541] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:44:41,521] {logging_mixin.py:109} INFO - 38  --  psychology practicum  --  dlsu
+[2023-02-22 01:44:42,279] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:44:51,725] {logging_mixin.py:109} INFO - 39  --  starting practicum with autism tomorrow  --  therapists
+[2023-02-22 01:44:52,457] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:45:01,861] {logging_mixin.py:109} INFO - 40  --  MSW - Field practicum  --  UWindsor
+[2023-02-22 01:45:02,696] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:45:12,041] {logging_mixin.py:109} INFO - 41  --  Lots of anxiety starting practicum  --  therapists
+[2023-02-22 01:45:12,838] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:45:21,671] {logging_mixin.py:109} INFO - 42  --  Practicum Bootcamp or not?  --  softwaretesting
+[2023-02-22 01:45:24,138] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:45:30,562] {logging_mixin.py:109} INFO - 43  --  Practicum business requirement  --  csuf
+[2023-02-22 01:45:33,008] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:45:37,530] {logging_mixin.py:109} INFO - 44  --  Astro Practicum 7: Dec 7 - 14  --  astrology
+[2023-02-22 01:45:40,019] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:45:46,002] {logging_mixin.py:109} INFO - 45  --  I just picked my last class before I start my practicums.  --  uAlberta
+[2023-02-22 01:45:50,672] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:45:57,695] {logging_mixin.py:109} INFO - 46  --  Has anyone found their own clinical practicum preceptor and site?  --  StudentNurse
+[2023-02-22 01:46:00,407] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:46:05,371] {logging_mixin.py:109} INFO - 47  --  Missed immunizations + practicum  --  StudentNurse
+[2023-02-22 01:46:09,954] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:46:21,329] {logging_mixin.py:109} INFO - 48  --  Severe anxiety as a practicum student seeing clients  --  therapists
+[2023-02-22 01:46:22,749] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:46:26,663] {logging_mixin.py:109} INFO - 49  --  Practicum Interview Advice  --  healthinspector
+[2023-02-22 01:46:29,297] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:46:37,926] {logging_mixin.py:109} INFO - 50  --  Practicum Lesson Ideas-Women’s Civil Rights  --  historyteachers
+[2023-02-22 01:46:40,812] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:46:46,498] {logging_mixin.py:109} INFO - 51  --  How seriously do internship sites consider non-practicum (moonlighting) intervention & assignment hours?  --  ClinicalPsychology
+[2023-02-22 01:46:50,021] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:46:57,111] {logging_mixin.py:109} INFO - 52  --  Practicum Lesson Ideas-Women’s Civil Rights  --  historyteachers
+[2023-02-22 01:46:58,368] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:47:03,031] {logging_mixin.py:109} INFO - 53  --  Practicum business advice  --  csuf
+[2023-02-22 01:47:05,780] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:47:14,569] {logging_mixin.py:109} INFO - 54  --  How to go about securing a summer research practicum at ivey league schools in the U.S?  --  AskAcademia
+[2023-02-22 01:47:18,167] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:47:27,132] {logging_mixin.py:109} INFO - 55  --  Practicum/Internship advice  --  therapists
+[2023-02-22 01:47:28,168] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:47:34,102] {logging_mixin.py:109} INFO - 56  --  Experience with Practicum and Supervisor  --  schoolcounseling
+[2023-02-22 01:47:34,959] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:47:40,561] {logging_mixin.py:109} INFO - 57  --  Got my practicum placement… would like advice  --  specialed
+[2023-02-22 01:47:43,752] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:47:50,952] {logging_mixin.py:109} INFO - 58  --  Having trouble getting into a Practicum any tips?  --  ChildLife
+[2023-02-22 01:47:52,961] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:47:59,573] {logging_mixin.py:109} INFO - 59  --  Thesis vs Practicum  --  McMaster
+[2023-02-22 01:48:00,681] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:48:06,529] {logging_mixin.py:109} INFO - 60  --  AD GIS practicum and career after graduation  --  BCIT
+[2023-02-22 01:48:07,942] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:48:13,525] {logging_mixin.py:109} INFO - 61  --  Oct 24-30 Weekly Astro Practicum III  --  astrology
+[2023-02-22 01:48:16,593] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:48:24,492] {logging_mixin.py:109} INFO - 62  --  Is it time to address unpaid practicums/internships?  --  antiwork
+[2023-02-22 01:48:26,915] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:48:33,832] {logging_mixin.py:109} INFO - 63  --  Sait MRT practicum placement  --  SAIT
+[2023-02-22 01:48:36,048] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:48:43,684] {logging_mixin.py:109} INFO - 64  --  Selecting top three wishes for Practicum Placement  --  StudentNurse
+[2023-02-22 01:48:46,127] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:48:51,944] {logging_mixin.py:109} INFO - 65  --  Just started practicum-advice/experiences?  --  schoolcounseling
+[2023-02-22 01:48:53,007] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:48:58,174] {logging_mixin.py:109} INFO - 66  --  Student Teaching Practicum in Hong Kong...  --  Internationalteachers
+[2023-02-22 01:49:02,090] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:49:07,744] {logging_mixin.py:109} INFO - 67  --  I (23f) need help! Starting practicum as a therapist, and I need to dress in business attire  --  BusinessFashion
+[2023-02-22 01:49:11,127] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:49:19,165] {logging_mixin.py:109} INFO - 68  --  Anyone who's done the Patient Experience Practicum or is in the process of applying, please DM me!  --  UCI
+[2023-02-22 01:49:20,643] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:49:28,835] {logging_mixin.py:109} INFO - 69  --  Is the Applied Practicum mandatory?  --  OMSA
+[2023-02-22 01:49:33,751] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:49:40,053] {logging_mixin.py:109} INFO - 70  --  How to prepare for phys 118 studio practicum  --  UNC
+[2023-02-22 01:49:42,273] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:49:47,800] {logging_mixin.py:109} INFO - 71  --  Are practicums a requirement?  --  college
+[2023-02-22 01:49:53,259] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:50:02,181] {logging_mixin.py:109} INFO - 72  --  Is this normal for internships and practicum?  --  therapists
+[2023-02-22 01:50:05,515] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:50:12,293] {logging_mixin.py:109} INFO - 73  --  Experience with Practicum  --  schoolcounseling
+[2023-02-22 01:50:14,627] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:50:23,012] {logging_mixin.py:109} INFO - 74  --  What has been your emotional (and psychological) journey through the experience of practicum, internship, and post-grad?  --  therapists
+[2023-02-22 01:50:26,255] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:50:34,644] {logging_mixin.py:109} INFO - 75  --  Job/practicum as a baker/pastry cook?  --  Calgary
+[2023-02-22 01:50:39,061] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:50:45,248] {logging_mixin.py:109} INFO - 76  --  Practicum Interview Questions  --  therapists
+[2023-02-22 01:50:47,791] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:50:56,385] {logging_mixin.py:109} INFO - 77  --  Hey, I'm going for a 6 week practicum in Minnedosa and I need some tips and advice  --  Winnipeg
+[2023-02-22 01:51:02,240] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:51:09,496] {logging_mixin.py:109} INFO - 78  --  The Health Optimizer: Office Practicum bSoftware!  --  HealthcareMedicalIT
+[2023-02-22 01:51:10,463] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:51:19,630] {logging_mixin.py:109} INFO - 79  --  what's it like taking practicum with four subjects  --  dlsu
+[2023-02-22 01:51:21,090] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:51:29,789] {logging_mixin.py:109} INFO - 80  --  Practicum and internship interviews  --  therapists
+[2023-02-22 01:51:30,967] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:51:39,897] {logging_mixin.py:109} INFO - 81  --  Skill Studies 179: Magic Practicum Solution  --  FireEmblemHeroes
+[2023-02-22 01:51:40,983] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:51:50,023] {logging_mixin.py:109} INFO - 82  --  Can anyone tell me what WST4941C practicum in Health Disparities entails?  --  ufl
+[2023-02-22 01:51:51,227] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:52:00,186] {logging_mixin.py:109} INFO - 83  --  Question about practicum/internship  --  schoolcounseling
+[2023-02-22 01:52:01,203] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:52:10,302] {logging_mixin.py:109} INFO - 84  --  SESP Practicum and Other Interesting Features about SESP  --  Northwestern
+[2023-02-22 01:52:11,896] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:52:20,451] {logging_mixin.py:109} INFO - 85  --  ENMU Practicum Question  --  slpGradSchool
+[2023-02-22 01:52:21,644] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:52:30,572] {logging_mixin.py:109} INFO - 86  --  How to go about securing a summer research practicum at ivey league schools in the U.S?  --  GradSchool
+[2023-02-22 01:52:35,128] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:52:41,792] {logging_mixin.py:109} INFO - 87  --  Internship/Practicum-Things to Look Out For  --  therapists
+[2023-02-22 01:52:44,312] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:52:53,762] {logging_mixin.py:109} INFO - 88  --  Practicum classroom teacher at daycare just told me that she doesn't think I'm fit to be in the field of study  --  ECEProfessionals
+[2023-02-22 01:52:58,037] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:53:05,343] {logging_mixin.py:109} INFO - 89  --  In need of “Practicum in Counseling: A Developmental Guide”  --  FreeTextBooks
+[2023-02-22 01:53:09,652] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:53:17,044] {logging_mixin.py:109} INFO - 90  --  Finding Practicum Sites in Los Angeles  --  slpGradSchool
+[2023-02-22 01:53:22,784] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:53:27,688] {logging_mixin.py:109} INFO - 91  --  Rethinking degree after second practicum  --  StudentTeaching
+[2023-02-22 01:53:31,919] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:53:39,527] {logging_mixin.py:109} INFO - 92  --  Risk of Failing Practicum  --  CanadianTeachers
+[2023-02-22 01:53:46,679] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:53:53,648] {logging_mixin.py:109} INFO - 93  --  Logistics for registration regarding practicum  --  OMSA
+[2023-02-22 01:53:58,793] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:54:04,997] {logging_mixin.py:109} INFO - 94  --  About Delaying Practicum  --  dlsu
+[2023-02-22 01:54:07,819] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:54:15,105] {logging_mixin.py:109} INFO - 95  --  Failing college practicum after giving it your all.  --  offmychest
+[2023-02-22 01:54:16,306] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:54:25,205] {logging_mixin.py:109} INFO - 96  --  would it be alright to take an elective during practicum(fourth year)?  --  dlsu
+[2023-02-22 01:54:28,742] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:54:35,524] {logging_mixin.py:109} INFO - 97  --  Nov 7 - Nov 13 Weekly Astro Practicum 5  --  astrology
+[2023-02-22 01:54:39,648] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:54:47,119] {logging_mixin.py:109} INFO - 98  --  What are Practicum red flags.  --  therapists
+[2023-02-22 01:54:53,189] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:55:01,744] {logging_mixin.py:109} INFO - 99  --  GIS Student- Practicum  --  gisjobs
+[2023-02-22 01:55:03,332] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:55:12,008] {logging_mixin.py:109} INFO - 100  --  Nov 7 - Nov 13 Weekly Astro Practicum 5  --  astrology
+[2023-02-22 01:55:13,609] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:55:22,386] {logging_mixin.py:109} INFO - 101  --  Why does Practicum cost double what a real class costs?  --  OMSA
+[2023-02-22 01:55:27,334] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:55:37,128] {logging_mixin.py:109} INFO - 102  --  No practicum reports to apply for jobs  --  CanadianTeachers
+[2023-02-22 01:55:40,573] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:55:46,987] {logging_mixin.py:109} INFO - 103  --  MSN Practicum  --  nursing
+[2023-02-22 01:55:48,833] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:55:57,633] {logging_mixin.py:109} INFO - 104  --  Master’s of Counseling student looking for advice on how to best accrue billable hours for practicum/internship.  --  therapists
+[2023-02-22 01:56:03,647] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:56:16,609] {logging_mixin.py:109} INFO - 105  --  Which senior practicum opportunity would be best for an aspiring ICU nurse?  --  StudentNurse
+[2023-02-22 01:56:19,001] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:56:26,062] {logging_mixin.py:109} INFO - 106  --  Oct 10-16 Weekly Astro Practicum I  --  astrology
+[2023-02-22 01:56:30,221] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:56:36,114] {logging_mixin.py:109} INFO - 107  --  Ghosted by practicum host after confirming?  --  CanadianTeachers
+[2023-02-22 01:56:42,872] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:56:48,850] {logging_mixin.py:109} INFO - 108  --  Practicum Overseas  --  schoolcounseling
+[2023-02-22 01:56:50,657] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:57:00,012] {logging_mixin.py:109} INFO - 109  --  Introverted counselling practicum student  --  therapists
+[2023-02-22 01:57:04,941] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:57:16,236] {logging_mixin.py:109} INFO - 110  --  to UPLB CMSC students: pwede ba mag take ng 1 GE kasabay ng practicum?  --  peyups
+[2023-02-22 01:57:20,902] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:57:26,663] {logging_mixin.py:109} INFO - 111  --  Anyone else cannot enroll in OS practicum?  --  Cornell
+[2023-02-22 01:57:29,021] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:57:37,807] {logging_mixin.py:109} INFO - 112  --  Girlfriend Moving to PG for 2 month practicum  --  princegeorge
+[2023-02-22 01:57:41,907] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:57:50,260] {logging_mixin.py:109} INFO - 113  --  Online Program and Clinical Practicum  --  slpGradSchool
+[2023-02-22 01:57:54,654] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:58:03,123] {logging_mixin.py:109} INFO - 114  --  How to do the Teach-Now and TeacherReady practicums as an ALT?  --  teachinginjapan
+[2023-02-22 01:58:12,899] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:58:23,107] {logging_mixin.py:109} INFO - 115  --  [Op-Ed] - The USC Trojans Come Out of the Locker Room and Line Up on the Practicum  --  NROauto
+[2023-02-22 01:58:32,436] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:58:47,258] {logging_mixin.py:109} INFO - 116  --  was watching the movie the host(2006) and thought of lab practicum..aka the bridge in half life 2  --  HalfLife
+[2023-02-22 01:58:50,790] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:59:08,825] {logging_mixin.py:109} INFO - 117  --  Does DLSU MBA have an internship /practicum program?  --  dlsu
+[2023-02-22 01:59:14,226] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:59:22,440] {logging_mixin.py:109} INFO - 118  --  Oct 17-23 Weekly Astro Practicum II  --  astrology
+[2023-02-22 01:59:30,235] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 01:59:46,307] {logging_mixin.py:109} INFO - 119  --  Astro Practicum 6 - Nov 14 - 21  --  astrology
+[2023-02-22 01:59:51,286] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 02:00:06,024] {logging_mixin.py:109} INFO - 120  --  Oct 31 - Nov 6 Weekly Astro Practicum  --  astrology
+[2023-02-22 02:00:12,511] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 02:00:18,872] {logging_mixin.py:109} INFO - 121  --  MT Practicum at Independent Schools?  --  OISE
+[2023-02-22 02:00:25,221] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 02:00:32,159] {logging_mixin.py:109} INFO - 122  --  What to wear to practicum?  --  schoolcounseling
+[2023-02-22 02:00:35,209] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 02:00:46,295] {logging_mixin.py:109} INFO - 123  --  [Op-Ed] - The USC Trojans Come Out of the Locker Room and Line Up on the Practicum | National Review  --  AutoNewspaper
+[2023-02-22 02:00:53,451] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 02:01:17,483] {logging_mixin.py:109} INFO - 124  --  Anyone struggling to complete practicum hours?  --  YorkvilleMACP
+[2023-02-22 02:01:29,557] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 02:01:38,182] {logging_mixin.py:109} INFO - 125  --  Practicum being stonewalled  --  nursing
+[2023-02-22 02:02:00,808] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 02:02:37,846] {logging_mixin.py:109} INFO - 126  --  Is it okay to feel disappointed if a supervisor doesn’t get you a farewell/thank you gift at the end of your clinical practicum?  --  slpGradSchool
+[2023-02-22 02:02:41,602] {logging_mixin.py:109} INFO - https://www.reddit.com/search/?q=practicum
+[2023-02-22 02:02:54,972] {logging_mixin.py:109} INFO - 127  --  What is something you wish you asked your Associate Teacher during your practicum?  --  CanadianTeachers
+[2023-02-22 02:03:17,827] {local_task_job.py:212} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2023-02-22 02:03:18,042] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 9939. PIDs of all processes in the group: [10178, 10184, 10188, 10189, 10195, 10196, 10212, 10261, 10344, 11007, 11113, 10244, 9939]
+[2023-02-22 02:03:18,044] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 9939
+[2023-02-22 02:03:18,053] {taskinstance.py:1408} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-02-22 02:03:18,782] {process_utils.py:70} INFO - Process psutil.Process(pid=10189, status='terminated', started='01:38:36') (10189) terminated with exit code None
+[2023-02-22 02:03:19,026] {process_utils.py:70} INFO - Process psutil.Process(pid=10196, status='terminated', started='01:38:36') (10196) terminated with exit code None
+[2023-02-22 02:03:19,356] {process_utils.py:70} INFO - Process psutil.Process(pid=11007, status='terminated', started='01:58:15') (11007) terminated with exit code None
+[2023-02-22 02:03:19,388] {process_utils.py:70} INFO - Process psutil.Process(pid=10184, status='terminated', started='01:38:36') (10184) terminated with exit code None
+[2023-02-22 02:03:19,398] {process_utils.py:70} INFO - Process psutil.Process(pid=10188, status='terminated', started='01:38:36') (10188) terminated with exit code None
+[2023-02-22 02:03:19,516] {process_utils.py:70} INFO - Process psutil.Process(pid=11113, status='terminated', started='02:00:39') (11113) terminated with exit code None
+[2023-02-22 02:03:19,518] {process_utils.py:70} INFO - Process psutil.Process(pid=10344, status='terminated', started='01:40:09') (10344) terminated with exit code None
+[2023-02-22 02:03:19,520] {process_utils.py:70} INFO - Process psutil.Process(pid=10212, status='terminated', started='01:38:36') (10212) terminated with exit code None
+[2023-02-22 02:03:19,526] {process_utils.py:70} INFO - Process psutil.Process(pid=10195, status='terminated', started='01:38:36') (10195) terminated with exit code None
+[2023-02-22 02:03:19,548] {process_utils.py:70} INFO - Process psutil.Process(pid=10244, status='terminated', started='01:38:36') (10244) terminated with exit code None
+[2023-02-22 02:03:19,919] {process_utils.py:70} INFO - Process psutil.Process(pid=10178, status='terminated', started='01:38:35') (10178) terminated with exit code None
+[2023-02-22 02:03:20,401] {process_utils.py:70} INFO - Process psutil.Process(pid=9939, status='terminated', exitcode=0, started='01:36:16') (9939) terminated with exit code 0
+[2023-02-22 02:03:24,214] {process_utils.py:70} INFO - Process psutil.Process(pid=10261, status='terminated', started='01:38:39') (10261) terminated with exit code None

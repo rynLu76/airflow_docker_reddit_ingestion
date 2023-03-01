@@ -1,0 +1,139 @@
+[2023-02-21 21:04:23,181] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping scheduled__2023-02-20T20:48:30.663472+00:00 [queued]>
+[2023-02-21 21:04:23,245] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: tutorial.scraping scheduled__2023-02-20T20:48:30.663472+00:00 [queued]>
+[2023-02-21 21:04:23,248] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21 21:04:23,253] {taskinstance.py:1239} INFO - Starting attempt 2 of 2
+[2023-02-21 21:04:23,256] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21 21:04:23,336] {taskinstance.py:1259} INFO - Executing <Task(_PythonDecoratedOperator): scraping> on 2023-02-20 20:48:30.663472+00:00
+[2023-02-21 21:04:23,360] {standard_task_runner.py:52} INFO - Started process 73 to run task
+[2023-02-21 21:04:23,429] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'scraping', 'scheduled__2023-02-20T20:48:30.663472+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/reddit_ingestion_dag.py', '--cfg-path', '/tmp/tmp7s9e_i3c', '--error-file', '/tmp/tmpzavycstw']
+[2023-02-21 21:04:23,452] {standard_task_runner.py:77} INFO - Job 7: Subtask scraping
+[2023-02-21 21:04:24,163] {logging_mixin.py:109} INFO - Running <TaskInstance: tutorial.scraping scheduled__2023-02-20T20:48:30.663472+00:00 [running]> on host b46f753f04a9
+[2023-02-21 21:04:24,528] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=scraping
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T20:48:30.663472+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-20T20:48:30.663472+00:00
+[2023-02-21 21:04:24,935] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-21 21:04:27,304] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome 110.0.5481
+[2023-02-21 21:04:28,369] {logger.py:11} INFO - There is no [linux64] chromedriver for browser 110.0.5481 in cache
+[2023-02-21 21:04:28,378] {logger.py:11} INFO - About to download new driver from https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_linux64.zip
+[2023-02-21 21:04:28,716] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   0%|          | 0.00/7.05M [00:00<?, ?B/s]
+[2023-02-21 21:04:28,827] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   3%|2         | 192k/7.05M [00:00<00:03, 1.86MB/s]
+[2023-02-21 21:04:29,048] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   5%|5         | 376k/7.05M [00:00<00:06, 1.12MB/s]
+[2023-02-21 21:04:29,150] {logging_mixin.py:109} WARNING - [WDM] - Downloading:   9%|9         | 656k/7.05M [00:00<00:04, 1.66MB/s]
+[2023-02-21 21:04:29,250] {logging_mixin.py:109} WARNING - [WDM] - Downloading:  24%|##3       | 1.68M/7.05M [00:00<00:01, 4.58MB/s]
+[2023-02-21 21:04:29,350] {logging_mixin.py:109} WARNING - [WDM] - Downloading:  41%|####      | 2.88M/7.05M [00:00<00:00, 7.04MB/s]
+[2023-02-21 21:04:29,452] {logging_mixin.py:109} WARNING - [WDM] - Downloading:  59%|#####8    | 4.13M/7.05M [00:00<00:00, 8.89MB/s]
+[2023-02-21 21:04:29,552] {logging_mixin.py:109} WARNING - [WDM] - Downloading:  92%|#########1| 6.48M/7.05M [00:00<00:00, 13.7MB/s]
+[2023-02-21 21:04:29,632] {logging_mixin.py:109} WARNING - [WDM] - Downloading: 100%|##########| 7.05M/7.05M [00:00<00:00, 8.13MB/s]
+[2023-02-21 21:04:29,638] {logging_mixin.py:109} WARNING - 
+[2023-02-21 21:04:32,704] {logger.py:11} INFO - Driver has been saved in cache [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481]
+[2023-02-21 21:05:07,224] {sessions.py:161} WARNING - Retrying due to 503 status: GET https://oauth.reddit.com/comments/108zqmx/
+[2023-02-21 21:05:08,015] {sessions.py:161} WARNING - Retrying due to 503 status: GET https://oauth.reddit.com/comments/108zqmx/
+[2023-02-21 21:05:11,888] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/reddit_ingestion_dag.py", line 110, in scrape_test
+    scrape_keyword_from_reddit(['weclouddata'])
+  File "/opt/airflow/dags/scraper.py", line 136, in scrape_keyword_from_reddit
+    result = search_keywords_in_reddit(cmp)
+  File "/opt/airflow/dags/scraper.py", line 73, in search_keywords_in_reddit
+    print(idx, " -- ", submission.title, " -- ", submission.subreddit)
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/models/reddit/base.py", line 34, in __getattr__
+    self._fetch()
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/models/reddit/submission.py", line 634, in _fetch
+    data = self._fetch_data()
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/models/reddit/submission.py", line 631, in _fetch_data
+    return self._reddit.request(method="GET", params=params, path=path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/util/deprecate_args.py", line 43, in wrapped
+    return func(**dict(zip(_old_args, args)), **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/reddit.py", line 947, in request
+    path=path,
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 337, in request
+    url=url,
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 263, in _request_with_retries
+    url,
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 170, in _do_retry
+    retry_strategy_state=retry_strategy_state.consume_available_retry(),  # noqa: E501
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 263, in _request_with_retries
+    url,
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 170, in _do_retry
+    retry_strategy_state=retry_strategy_state.consume_available_retry(),  # noqa: E501
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 266, in _request_with_retries
+    raise self.STATUS_EXCEPTIONS[response.status_code](response)
+prawcore.exceptions.ServerError: received 503 HTTP response
+[2023-02-21 21:05:11,924] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=tutorial, task_id=scraping, execution_date=20230220T204830, start_date=20230221T210423, end_date=20230221T210511
+[2023-02-21 21:05:11,949] {standard_task_runner.py:92} ERROR - Failed to execute job 7 for task scraping
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 134, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/reddit_ingestion_dag.py", line 110, in scrape_test
+    scrape_keyword_from_reddit(['weclouddata'])
+  File "/opt/airflow/dags/scraper.py", line 136, in scrape_keyword_from_reddit
+    result = search_keywords_in_reddit(cmp)
+  File "/opt/airflow/dags/scraper.py", line 73, in search_keywords_in_reddit
+    print(idx, " -- ", submission.title, " -- ", submission.subreddit)
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/models/reddit/base.py", line 34, in __getattr__
+    self._fetch()
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/models/reddit/submission.py", line 634, in _fetch
+    data = self._fetch_data()
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/models/reddit/submission.py", line 631, in _fetch_data
+    return self._reddit.request(method="GET", params=params, path=path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/util/deprecate_args.py", line 43, in wrapped
+    return func(**dict(zip(_old_args, args)), **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/praw/reddit.py", line 947, in request
+    path=path,
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 337, in request
+    url=url,
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 263, in _request_with_retries
+    url,
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 170, in _do_retry
+    retry_strategy_state=retry_strategy_state.consume_available_retry(),  # noqa: E501
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 263, in _request_with_retries
+    url,
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 170, in _do_retry
+    retry_strategy_state=retry_strategy_state.consume_available_retry(),  # noqa: E501
+  File "/home/airflow/.local/lib/python3.7/site-packages/prawcore/sessions.py", line 266, in _request_with_retries
+    raise self.STATUS_EXCEPTIONS[response.status_code](response)
+prawcore.exceptions.ServerError: received 503 HTTP response
+[2023-02-21 21:05:12,005] {local_task_job.py:154} INFO - Task exited with return code 1
+[2023-02-21 21:05:12,045] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
